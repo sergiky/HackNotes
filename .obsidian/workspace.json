@@ -8,55 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "faaa3bda01d7f80a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "General errors.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "b033a29fe44efd49",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CTF/HackTheBox/TimeLapse/TimeLapse.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "23de3c06bb4cc305",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tools/Active Directory/smbmap.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "193657b2b2fa08a8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tools/Active Directory/smbclient.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "469a323a342f0cbb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -133,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "General errors.md",
+                "file": "CTF/HackTheBox/TimeLapse/TimeLapse.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "General errors.md",
+                "file": "CTF/HackTheBox/TimeLapse/TimeLapse.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "General errors.md"
+                "file": "CTF/HackTheBox/TimeLapse/TimeLapse.md"
               }
             }
           },
@@ -202,12 +154,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "faaa3bda01d7f80a",
+  "active": "b033a29fe44efd49",
   "lastOpenFiles": [
+    "Images/Pasted image 20230816002506.png",
+    "General errors.md",
     "Tools/Active Directory/smbclient.md",
     "CTF/HackTheBox/TimeLapse/TimeLapse.md",
     "Tools/Active Directory/Crackmapexec/Crackmapexec.md",
-    "General errors.md",
     "repo",
     "Images/Pasted image 20230815195504.png",
     "Images/Pasted image 20230815195443.png",

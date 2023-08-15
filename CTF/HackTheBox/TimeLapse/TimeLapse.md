@@ -181,6 +181,17 @@ We can list the resources of the zip with the command
 What is this file?
 If we search what type of files have extensions **.pfx** we find that are a backup of private certificate used to authenticate a person or a device, such as a computer or a web server
 
+### Extract zip
+
+We are going to extract the file, but ups, the zip need a password
+
+> unzip winrm_backup.zip
+
+![](../../../Images/Pasted%20image%2020230816002506.png)
+
+You can use [[zip2john]] 
+
+
 
 ---
 
