@@ -230,6 +230,37 @@ We can generate a certificate with the command:
 
 > openssl pkcs12 -in legacyy_dev_auth.pfx -nokeys -out certificate.pem
 
+And now what?, if you see the open ports, you can see that the port **5986** that is [winrm](https://learn.microsoft.com/en-us/windows/win32/winrm/portal) but with ssl.
+
+We can try to connect with evil-winrm
+
+> evil-winrm -i 10.10.11.152 -c certificate.pem -k priv-key.pem -S
+
+`-c` --> Indicate the public certificate
+`-k` --> Indicate the private key
+`-S` --> Indicate that are using **SSL**
+
+Yeeesss, we are connected to the victim machine
+
+Now we have the flag in the desktop of the user legacyy
+
+We can see the names of the users with
+
+> net user
+
+if we see the user **svc_deploy**
+
+> net user svc_deploy
+
+we can see that belongs to group LDAPS_Readers, before we see that LAPS are a management of local account password, if this user belongs to the group, probabily can read the password 
+
+![](../../../Images/Pasted%20image%2020230816013107.png)
+
+If we search in google **abusing LAPS pentesting windows** we can find a lot of website that comment different ways to read the password stored in LAPS 
+
+
+When you change to the svc_deploy user that have the privilage you can execute this [script from github](https://github.com/kfosaaen/Get-LAPSPasswords) and import in to the victim machine and obtain the password
+
 ---
 
 # Resources

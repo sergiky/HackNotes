@@ -8,12 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b033a29fe44efd49",
+            "id": "170ee204ceb963c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "CTF/HackTheBox/TimeLapse/TimeLapse.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b033a29fe44efd49",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tools/Active Directory/evil-winrm.md",
                 "mode": "source",
                 "source": false
               }
@@ -178,12 +190,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b033a29fe44efd49",
+  "active": "170ee204ceb963c1",
   "lastOpenFiles": [
+    "Images/Pasted image 20230816013107.png",
+    "Tools/Active Directory/evil-winrm.md",
+    "CTF/HackTheBox/TimeLapse/TimeLapse.md",
     "Images/Pasted image 20230816004655.png",
     "Images/Pasted image 20230816003656.png",
     "Tools/zip2john.md",
-    "CTF/HackTheBox/TimeLapse/TimeLapse.md",
     "Tools/fcrackzip.md",
     "Images/Pasted image 20230816002506.png",
     "General errors.md",
@@ -197,7 +211,6 @@
     "Images/Pasted image 20230815193650.png",
     "Images/Pasted image 20230815193414.png",
     "Images/Pasted image 20230815192328.png",
-    "Images/Pasted image 20230815192100.png",
     "Tools/Active Directory/smbmap.md",
     "Tools/Active Directory/SMB && SAMBA.md",
     "Tools/Active Directory/desktop.ini",
@@ -224,7 +237,6 @@
     "Tools/LDAP/ldapsearch.md",
     "Tools/LDAP/ldapadd.md",
     "OWASP TOP 10 and web vulnerabilities/NoSQL Injection/NoSQL Injection.md",
-    "Commands/AWK.md",
-    "OWASP TOP 10 and web vulnerabilities/Type Juggling attack/Type Juggling Attack.md"
+    "Commands/AWK.md"
   ]
 }
