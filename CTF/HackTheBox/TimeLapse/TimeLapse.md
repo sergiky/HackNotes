@@ -200,6 +200,8 @@ You can use [[../../../Tools/zip2john]] or you can use [fcrackzip](../../../Tool
 
 ![](../../../Images/Pasted%20image%2020230816003656.png)
 
+
+
 ---
 
 # Resources
