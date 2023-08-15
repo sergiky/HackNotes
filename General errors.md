@@ -7,6 +7,7 @@ This is normally **by the version**, this program is create to execute with pyth
 The solution is download **2to3** to convert script in python2 to python3 and execute the next command:
 > 2to3 --write 46635.py
 
+a
 # GitHub
 ### Clone subversion repository
 When you want to clone a folder that is inside of a project or a folder inside another folder, you obtain an error.

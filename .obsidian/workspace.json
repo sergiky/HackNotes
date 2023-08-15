@@ -67,8 +67,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CTF/HackTheBox/TimeLapse/TimeLapse.md",
+                "file": "General errors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CTF/HackTheBox/TimeLapse/TimeLapse.md",
+                "file": "General errors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CTF/HackTheBox/TimeLapse/TimeLapse.md"
+                "file": "General errors.md"
               }
             }
           },
@@ -203,10 +202,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "469a323a342f0cbb",
+  "active": "faaa3bda01d7f80a",
   "lastOpenFiles": [
-    "Tools/Active Directory/Crackmapexec/Crackmapexec.md",
+    "Tools/Active Directory/smbclient.md",
     "CTF/HackTheBox/TimeLapse/TimeLapse.md",
+    "Tools/Active Directory/Crackmapexec/Crackmapexec.md",
     "General errors.md",
     "repo",
     "Images/Pasted image 20230815195504.png",
@@ -221,7 +221,6 @@
     "Images/Pasted image 20230815191636.png",
     "Tools/Active Directory/smbmap.md",
     "Tools/Active Directory/SMB && SAMBA.md",
-    "Tools/Active Directory/smbclient.md",
     "Tools/Active Directory/desktop.ini",
     "Tools/Active Directory",
     "Tools/Enumeration/Crackmapexec/desktop.ini",
