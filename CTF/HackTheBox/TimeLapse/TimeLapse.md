@@ -189,9 +189,16 @@ We are going to extract the file, but ups, the zip need a password
 
 ![](../../../Images/Pasted%20image%2020230816002506.png)
 
-You can use [[zip2john]] or you can use [[../../../Tools/fcrackzip]]
+You can use [[../../../Tools/zip2john]] or you can use [fcrackzip](../../../Tools/fcrackzip.md), in this case we are going to use fcrackzip and bruteforce the password of the zip
 
+> fcrackzip -v -u -D -p /usr/share/wordlist/rockyou.txt winrm_backup.zip
 
+`-v` --> verbose
+`-u` --> unzip
+`-D` --> Dictionary
+`-p` --> password
+
+![](../../../Images/Pasted%20image%2020230816003656.png)
 
 ---
 
