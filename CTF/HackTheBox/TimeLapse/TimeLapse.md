@@ -261,7 +261,23 @@ If we search in google **abusing LAPS pentesting windows** we can find a lot of 
 
 When you change to the svc_deploy user that have the privilage you can execute this [script from github](https://github.com/kfosaaen/Get-LAPSPasswords) and import in to the victim machine and obtain the password.
 
+To obtain the password, we can search the last command that the user use, for this you have to go to the personal directory of the user.
 
+And the first of all we can check if the program exist
+
+````bash
+type AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline\ConsoleHost_history.txt
+````
+
+And we can see the password of the user svc_deploy:
+
+![](../../../Images/Pasted%20image%2020230816014119.png)
+
+We can validate with [Crackmapexec](../../../Tools/Active%20Directory/Crackmapexec/Crackmapexec.md) if the password is correct
+
+> crackmapexec smb 10.10.11.152 -u 'svc_deploy' -p 'E3R$Q62^12p7PLlC%KWaxuaV'
+
+If return a match it is a good signal, this means that the login is correct
 
 ---
 
