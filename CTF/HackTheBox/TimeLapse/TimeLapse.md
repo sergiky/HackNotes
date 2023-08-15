@@ -189,7 +189,7 @@ We are going to extract the file, but ups, the zip need a password
 
 ![](../../../Images/Pasted%20image%2020230816002506.png)
 
-You can use [[zip2john]] 
+You can use [[zip2john]] or you can use [[../../../Tools/fcrackzip]]
 
 
 

@@ -1,0 +1,1 @@
+This tool is used to do bruteforce to a compressed file
