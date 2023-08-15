@@ -200,7 +200,35 @@ You can use [[../../../Tools/zip2john]] or you can use [fcrackzip](../../../Tool
 
 ![](../../../Images/Pasted%20image%2020230816003656.png)
 
+No we can unzip the file, but we can see the content because is a binary, we can open the file with:
 
+> openssl pkcs12 -in legacyy_dev_auth.pfx -nocerts -out priv-key.pem
+-nodes
+
+But we need a password, thing that don't have yet
+
+![](../../../Images/Pasted%20image%2020230816004655.png)
+
+Exists pfx2john that can obtain a hash and after we can crack
+
+> pfx2john legacyy_dev_auth.pfx
+
+
+But exists other utility that is [crackpkcs12](https://github.com/crackpkcs12/crackpkcs12) 
+
+Is recommend to install **libssl-dev** because when you are going to use the **make** it doesn't work well.
+
+Then clone the repo and do what you are asked to do to install
+
+> crackpkcs12 -d /usr/share/wordlists/rockyou.txt legacyy_dev_auth.pfx
+
+And we obtain the password! :)
+
+When we put the password give us a **priv-key.pem**
+
+We can generate a certificate with the command:
+
+> openssl pkcs12 -in legacyy_dev_auth.pfx -nokeys -out certificate.pem
 
 ---
 
