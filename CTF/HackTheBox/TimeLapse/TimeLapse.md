@@ -259,7 +259,9 @@ we can see that belongs to group LDAPS_Readers, before we see that LAPS are a ma
 If we search in google **abusing LAPS pentesting windows** we can find a lot of website that comment different ways to read the password stored in LAPS 
 
 
-When you change to the svc_deploy user that have the privilage you can execute this [script from github](https://github.com/kfosaaen/Get-LAPSPasswords) and import in to the victim machine and obtain the password
+When you change to the svc_deploy user that have the privilage you can execute this [script from github](https://github.com/kfosaaen/Get-LAPSPasswords) and import in to the victim machine and obtain the password.
+
+
 
 ---
 
