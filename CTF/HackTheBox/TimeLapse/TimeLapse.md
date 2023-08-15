@@ -43,7 +43,7 @@ One time we checked that the machine is available we can do a port scanning with
 `-n` --> Avoid DNS resolution that extend a little the scan innecseary
 `-Pn` --> skip host Discovery (check if the host is active)
 `-oN` --> Exports the result in grepeable format
-
+a
 
 ![](../../../Images/Pasted%20image%2020230815183437.png)
 
