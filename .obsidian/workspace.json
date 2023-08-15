@@ -61,14 +61,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/Active Directory/Crackmapexec/Crackmapexec.md",
+                "file": "CTF/HackTheBox/TimeLapse/TimeLapse.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -114,8 +114,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -204,10 +203,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b033a29fe44efd49",
+  "active": "469a323a342f0cbb",
   "lastOpenFiles": [
-    "General errors.md",
+    "Tools/Active Directory/Crackmapexec/Crackmapexec.md",
     "CTF/HackTheBox/TimeLapse/TimeLapse.md",
+    "General errors.md",
     "repo",
     "Images/Pasted image 20230815195504.png",
     "Images/Pasted image 20230815195443.png",
@@ -224,7 +224,6 @@
     "Tools/Active Directory/smbclient.md",
     "Tools/Active Directory/desktop.ini",
     "Tools/Active Directory",
-    "Tools/Active Directory/Crackmapexec/Crackmapexec.md",
     "Tools/Enumeration/Crackmapexec/desktop.ini",
     "Tools/Active Directory/Crackmapexec",
     "CTF/HackTheBox/TimeLapse/desktop.ini",
