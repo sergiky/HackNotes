@@ -8,7 +8,7 @@
 
 # Walkthrough
 
-## Recon
+## Recona
 
 ### Check the connectivity with the machine
 
