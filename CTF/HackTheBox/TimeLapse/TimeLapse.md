@@ -2,8 +2,12 @@
 ![](../../../Images/bae443f73a706fc8eebc6fb740128295.png)
 
 - SMB Enumeration
-
-
+- winrmssl
+- liked pfx file
+- cracking zip with fcrackzip
+- creating public certificates and private key
+- Reading powershell history
+- Abusing LAPS with an ps1 script to reach to the user Administrator
 ---
 
 # Walkthrough
@@ -337,4 +341,4 @@ We can found the flag in the Desktop of the user TRX
 ---
 # Tags
 
-#machine #windows #activedirectory #crackmapexec #smbclient #smbmap #evilwinrm #fcrackzip #LAPS #powershellhistory
+#machine #windows #activedirectory #winrmssl #crackmapexec #smbclient #smbmap #evilwinrm #fcrackzip #LAPS #powershellhistory
