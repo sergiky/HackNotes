@@ -13,43 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF/HackTheBox/TimeLapse/TimeLapse.md",
+                "file": "Programming languages/Python/Libreries/pwntools.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b033a29fe44efd49",
+            "id": "0fe41f66962874ce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/Active Directory/evil-winrm.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f1147404bb38428a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tools/zip2john.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "224e10d241362895",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tools/fcrackzip.md",
+                "file": "OWASP TOP 10 and web vulnerabilities/NoSQL Injection/NoSQL Injection.md",
                 "mode": "source",
                 "source": false
               }
@@ -84,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#abusingpowershellhistory",
+                "query": "pwn",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -122,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CTF/HackTheBox/TimeLapse/TimeLapse.md",
+                "file": "Programming languages/Python/Libreries/pwntools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CTF/HackTheBox/TimeLapse/TimeLapse.md",
+                "file": "Programming languages/Python/Libreries/pwntools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CTF/HackTheBox/TimeLapse/TimeLapse.md"
+                "file": "Programming languages/Python/Libreries/pwntools.md"
               }
             }
           },
@@ -191,8 +167,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1b529b32bc6da95f",
+  "active": "170ee204ceb963c1",
   "lastOpenFiles": [
+    "Nuevo Documento de texto.txt",
+    "OWASP TOP 10 and web vulnerabilities/NoSQL Injection/NoSQL Injection.md",
+    "Programming languages/Python/Libreries/pwntools.md",
+    "OWASP TOP 10 and web vulnerabilities/LDAP injection/LDAP injection.md",
+    "Programming languages/Python/Libreries",
+    "CTF/HackTheBox/TimeLapse/TimeLapse.md",
+    "Tools/Active Directory/evil-winrm.md",
     "Images/Pasted image 20230816020524.png",
     "Images/Pasted image 20230816020445.png",
     "Images/Pasted image 20230816020138.png",
@@ -200,8 +183,6 @@
     "Images/Pasted image 20230816015634.png",
     "Images/Pasted image 20230816014119.png",
     "Images/Pasted image 20230816013107.png",
-    "Tools/Active Directory/evil-winrm.md",
-    "CTF/HackTheBox/TimeLapse/TimeLapse.md",
     "Images/Pasted image 20230816004655.png",
     "Images/Pasted image 20230816003656.png",
     "Tools/zip2john.md",
@@ -211,7 +192,6 @@
     "Tools/Active Directory/smbclient.md",
     "Tools/Active Directory/Crackmapexec/Crackmapexec.md",
     "repo",
-    "Images/Pasted image 20230815195504.png",
     "Tools/Active Directory/smbmap.md",
     "Tools/Active Directory/SMB && SAMBA.md",
     "Tools/Active Directory/desktop.ini",
@@ -223,10 +203,8 @@
     "CTF/HackTheBox/TimeLapse",
     "CTF/HackTheBox",
     "CTF",
-    "OWASP TOP 10 and web vulnerabilities/LaTex Injection",
     "Tools/Enumeration/Wfuzz.md",
     "Tools/Enumeration/Fuff.md",
-    "OWASP TOP 10 and web vulnerabilities/LDAP injection/LDAP injection.md",
     "Tools/Enumeration/httpx/httpx.md",
     "OWASP TOP 10 and web vulnerabilities/Deserialization attack/Deserialization attack.md",
     "Tools/Enumeration/Gobuster.md",
@@ -236,8 +214,6 @@
     "General commands.md",
     "Programming languages/Python/Add proxy with requests.md",
     "Tools/LDAP/ldapsearch.md",
-    "Tools/LDAP/ldapadd.md",
-    "OWASP TOP 10 and web vulnerabilities/NoSQL Injection/NoSQL Injection.md",
-    "Commands/AWK.md"
+    "Tools/LDAP/ldapadd.md"
   ]
 }
