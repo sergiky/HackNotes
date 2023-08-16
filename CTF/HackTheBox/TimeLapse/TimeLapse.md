@@ -3,8 +3,9 @@
 
 - SMB Enumeration
 - winrmssl
-- liked pfx file
+- leaked pfx file
 - cracking zip with fcrackzip
+- cracking pfx file with crackpkcs12
 - creating public certificates and private key
 - Reading powershell history
 - Abusing LAPS with an ps1 script to reach to the user Administrator
