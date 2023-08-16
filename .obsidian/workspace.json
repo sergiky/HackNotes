@@ -84,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[]",
+                "query": "tag:#abusingpowershellhistory",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,7 +101,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -190,8 +191,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "170ee204ceb963c1",
+  "active": "1b529b32bc6da95f",
   "lastOpenFiles": [
+    "Images/Pasted image 20230816020524.png",
+    "Images/Pasted image 20230816020445.png",
+    "Images/Pasted image 20230816020138.png",
+    "Images/Pasted image 20230816015835.png",
+    "Images/Pasted image 20230816015634.png",
     "Images/Pasted image 20230816014119.png",
     "Images/Pasted image 20230816013107.png",
     "Tools/Active Directory/evil-winrm.md",
@@ -206,11 +212,6 @@
     "Tools/Active Directory/Crackmapexec/Crackmapexec.md",
     "repo",
     "Images/Pasted image 20230815195504.png",
-    "Images/Pasted image 20230815195443.png",
-    "Images/Pasted image 20230815195238.png",
-    "Images/Pasted image 20230815194854.png",
-    "Images/Pasted image 20230815193650.png",
-    "Images/Pasted image 20230815193414.png",
     "Tools/Active Directory/smbmap.md",
     "Tools/Active Directory/SMB && SAMBA.md",
     "Tools/Active Directory/desktop.ini",
