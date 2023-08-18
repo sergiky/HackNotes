@@ -47,11 +47,35 @@ Now, the header of authorization is going to put in all the request
 
 ![](../../Images/Pasted%20image%2020230818191553.png)
 
+You can recolate a lot of endpoint and put here to organize 
+
+---
+
+## Exploiting
+
+In the field of **forgot password**, you can send a email to corespondent account to reset the password, you can see the mails in `localhost:8025`.
+
+You can see the format, in this case only need the OTP and the new password
+
+![](../../Images/Pasted%20image%2020230818202651.png)
+
+You can use the network section in developer option to see the request
+
+![](../../Images/Pasted%20image%2020230818203101.png)
+
+![](../../Images/Pasted%20image%2020230818203211.png)
+
+We are going to represent this url in [Postman](../../Tools/API/Postman.md)
+
+![](../../Images/Pasted%20image%2020230818203403.png)
+
+We can use [Ffuf](../../Tools/Enumeration/Ffuf.md)
+
 ---
 
 # Labs
 
-- [OWASP lab](https://github.com/OWASP/crAPI) (The project is a little unstable, drop all and repeat the )
+- [OWASP lab](https://github.com/OWASP/crAPI) (The project is a little unstable, drop all and repeat the installation )
 
 ---
 
