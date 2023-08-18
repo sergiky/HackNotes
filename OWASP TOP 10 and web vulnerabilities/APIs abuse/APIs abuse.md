@@ -51,7 +51,9 @@ You can recolate a lot of endpoint and put here to organize
 
 ---
 
-## Exploiting
+# Exploiting
+
+### Brute-forcing OTP 
 
 In the field of **forgot password**, you can send a email to corespondent account to reset the password, you can see the mails in `localhost:8025`.
 
@@ -105,7 +107,43 @@ We repeat the process, and fuzz the new url, and **boomb!!**
 
 The password has changed, now we can login with the new password (1aA$aaaa)
 
+----
 
+### Replacing method
+
+We can try with others method, in this case works with GET, but we can use a dictionary to find others available methods
+
+> ffuf -u http://localhost:8888/workshop/api/shop/products -w /usr/share/seclists/Fuzzing/http-request-methods.txt -X FUZZ -p 1 -mc 401,200
+
+![](../../Images/Pasted%20image%2020230819004702.png)
+
+In this case GET and OPTIONS discard them, OPTIONS method is used to see whats methods are allowed, you can see this in the headers
+
+![](../../Images/Pasted%20image%2020230819004911.png)
+
+It is better to do this request that bruteforce with a dictionary, make less noise
+
+We see that accept method POST
+
+![](../../Images/Pasted%20image%2020230819005152.png)
+
+!!!! Remember if you logout and login again, **the json web token change**, you have to change the value of the variable
+
+But require this three fields, we can fill them in our body section, it looks like we can add a new product?, name, price and the image?
+
+We are going to realice the request
+
+![](../../Images/Pasted%20image%2020230819005958.png)
+
+> {"name":"Hacked","price":"-10000","image_url":"https://static.vecteezy.com/system/resources/previews/003/188/635/original/a-hotdog-sticker-on-white-background-free-vector.jpg"}
+
+Why I put negative number? because this cause that own quantity increase instead of decreasing
+
+![](../../Images/Pasted%20image%2020230819010347.png)
+
+![](../../Images/Pasted%20image%2020230819010356.png)
+
+This is a [Mass Assignment Attack](../Mass%20Assignment%20Attack/Mass%20Assignment%20Attack.md) 
 
 ---
 

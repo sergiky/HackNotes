@@ -180,19 +180,20 @@
   },
   "active": "2eb679d2d9e60842",
   "lastOpenFiles": [
+    "OWASP TOP 10 and web vulnerabilities/Mass Assignment Attack/Mass Assignment Attack.md",
+    "OWASP TOP 10 and web vulnerabilities/APIs abuse/APIs abuse.md",
+    "OWASP TOP 10 and web vulnerabilities/Mass Assignment Attack",
+    "Images/Pasted image 20230819010356.png",
+    "Images/Pasted image 20230819010347.png",
+    "Images/Pasted image 20230819005958.png",
+    "Images/Pasted image 20230819005152.png",
+    "Images/Pasted image 20230819004911.png",
+    "Images/Pasted image 20230819004702.png",
     "Images/Pasted image 20230818205745.png",
     "Images/Pasted image 20230818204639.png",
     "Images/Pasted image 20230818204637.png",
     "Images/Pasted image 20230818204327.png",
     "Tools/Enumeration/Ffuf.md",
-    "OWASP TOP 10 and web vulnerabilities/APIs abuse/APIs abuse.md",
-    "Images/Pasted image 20230818203403.png",
-    "Images/Pasted image 20230818203211.png",
-    "Images/Pasted image 20230818203101.png",
-    "Images/Pasted image 20230818202651.png",
-    "Images/Pasted image 20230818191553.png",
-    "Images/Pasted image 20230818191143.png",
-    "Images/Pasted image 20230818190307.png",
     "Tools/API/Postman.md",
     "Tools/API",
     "OWASP TOP 10 and web vulnerabilities/APIs abuse/desktop.ini",
@@ -224,7 +225,6 @@
     "repo",
     "Tools/Active Directory/desktop.ini",
     "Tools/Active Directory",
-    "Tools/Enumeration/Crackmapexec/desktop.ini",
-    "Tools/Active Directory/Crackmapexec"
+    "Tools/Enumeration/Crackmapexec/desktop.ini"
   ]
 }
