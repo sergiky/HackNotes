@@ -105,6 +105,8 @@ We repeat the process, and fuzz the new url, and **boomb!!**
 
 The password has changed, now we can login with the new password (1aA$aaaa)
 
+
+
 ---
 
 # Labs
