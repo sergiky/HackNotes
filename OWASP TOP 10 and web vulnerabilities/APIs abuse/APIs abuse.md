@@ -156,7 +156,39 @@ In postman, we take and enpoint (buy product) that can select what item and how 
 ![](../../Images/Pasted%20image%2020230819011002.png)
 ![](../../Images/Pasted%20image%2020230819011011.png)
 
+---
 
+## Coupon - NoSQL 
+
+With the network tool we can take the endpoint of the coupon
+
+> http://localhost:8888/community/api/v2/coupon/validate-coupon
+
+We can add to our collection in [Postman](../../Tools/API/Postman.md) 
+
+After add the content in body
+
+![](../../Images/Pasted%20image%2020230819012657.png)
+
+In this field, we can try to play with other vulnerabilities, in this case are going to be **NoSQL Injection**
+
+> {"coupon_code": {"$ne":"1"}}
+
+And if it work, you can see the result
+
+![](../../Images/Pasted%20image%2020230819013058.png)
+
+## Vehicle - BOLA
+
+**Broken Object Level Authorization**
+
+![](../../Images/Pasted%20image%2020230819013952.png)
+
+If we can see the vehicule of other proprietary this is consider a BOLA
+
+
+
+![](../../Images/Pasted%20image%2020230819013823.png)
 
 ---
 
@@ -168,4 +200,4 @@ In postman, we take and enpoint (buy product) that can select what item and how 
 
 # Tags
 
-#vulnerabilty  #api
+#vulnerabilty  #api #nosql #bola 
