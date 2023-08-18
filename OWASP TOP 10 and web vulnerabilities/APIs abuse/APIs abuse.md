@@ -145,6 +145,19 @@ Why I put negative number? because this cause that own quantity increase instead
 
 This is a [Mass Assignment Attack](../Mass%20Assignment%20Attack/Mass%20Assignment%20Attack.md) 
 
+And about the money, we can buy the product we can see how the money raise
+
+![](../../Images/Pasted%20image%2020230819010622.png)
+
+![](../../Images/Pasted%20image%2020230819010754.png)
+
+In postman, we take and enpoint (buy product) that can select what item and how many items do we want
+
+![](../../Images/Pasted%20image%2020230819011002.png)
+![](../../Images/Pasted%20image%2020230819011011.png)
+
+
+
 ---
 
 # Labs
