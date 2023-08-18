@@ -190,6 +190,26 @@ If we can see the vehicule of other proprietary this is consider a BOLA
 
 ![](../../Images/Pasted%20image%2020230819013823.png)
 
+We add the endpoint in postman
+
+If you go to community, there are other users, if we use network tool and click in a user message, we can see extra information 
+
+![](../../Images/Pasted%20image%2020230819014421.png)
+
+We can see the id of the other user...
+
+> 10c08d7a-4777-4f37-9fe2-9437b5fc14a3
+
+If we put this ID in the request that is possible to happen a BOLA
+
+![](../../Images/Pasted%20image%2020230819014713.png)
+
+And yes, the BOLA attack works
+
+![](../../Images/Pasted%20image%2020230819014741.png)
+
+Remember in the last request that we see the email, and we found a vulnerabilty abusing the v2 version of the API to bruteforce OTP code
+
 ---
 
 # Labs
