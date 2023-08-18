@@ -71,6 +71,34 @@ We are going to represent this url in [Postman](../../Tools/API/Postman.md)
 
 We can use [Ffuf](../../Tools/Enumeration/Ffuf.md)
 
+> ffuf -u http://localhost:8888/identity/api/auth/v3/check-otp -w /usr/share/seclists/Fuzzing/4-digits-0000-9999.txt -X POST -d '{"email":"sergiky@sergiky.com","otp":"FUZZ","password":"1aA$aaaa"}' -p 1
+
+´-p 1´ --> 1 second after a request
+
+But the website identify that we are fuzzing theme and block our request
+
+Go to postman and send some requests
+
+![](../../Images/Pasted%20image%2020230818204327.png)
+
+But you can try if exists other version that don't block our attack
+
+> http://localhost:8888/identity/api/auth/v3/check-otp
+
+to
+
+> http://localhost:8888/identity/api/auth/v2/check-otp
+
+we can fuzz again but in this url
+
+The v2 of the API don't block to this bruteforce attack
+
+Don't eliminate a old version (vulnerable version)
+
+![](../../Images/Pasted%20image%2020230818204639.png)
+
+The OTP code have an expiration time (like 3 minutes more or less) we **resend the code
+**
 ---
 
 # Labs

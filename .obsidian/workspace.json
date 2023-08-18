@@ -72,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pwn",
+                "query": "ffu",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -180,6 +180,9 @@
   },
   "active": "2eb679d2d9e60842",
   "lastOpenFiles": [
+    "Images/Pasted image 20230818204639.png",
+    "Images/Pasted image 20230818204637.png",
+    "Images/Pasted image 20230818204327.png",
     "Tools/Enumeration/Ffuf.md",
     "OWASP TOP 10 and web vulnerabilities/APIs abuse/APIs abuse.md",
     "Images/Pasted image 20230818203403.png",
@@ -192,8 +195,6 @@
     "Images/Pasted image 20230818190247.png",
     "Tools/API/Postman.md",
     "Tools/API",
-    "Images/Pasted image 20230818182644.png",
-    "Images/Pasted image 20230818182428.png",
     "OWASP TOP 10 and web vulnerabilities/APIs abuse/desktop.ini",
     "OWASP TOP 10 and web vulnerabilities/XSS/XSS.md",
     "OWASP TOP 10 and web vulnerabilities/APIs abuse",
@@ -220,7 +221,6 @@
     "Tools/fcrackzip.md",
     "General errors.md",
     "Tools/Active Directory/smbclient.md",
-    "Tools/Active Directory/Crackmapexec/Crackmapexec.md",
     "repo",
     "Tools/Active Directory/desktop.ini",
     "Tools/Active Directory",
