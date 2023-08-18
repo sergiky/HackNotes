@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "73101196c89ed550",
+        "id": "3d7fb70a6456c637",
         "type": "tabs",
         "children": [
           {
-            "id": "74ade572b3542bb7",
+            "id": "1b8025eb212434c7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "OWASP TOP 10 and web vulnerabilities/APIs abuse/APIs abuse.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "OWASP TOP 10 and web vulnerabilities/APIs abuse/APIs abuse.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "OWASP TOP 10 and web vulnerabilities/APIs abuse/APIs abuse.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "OWASP TOP 10 and web vulnerabilities/APIs abuse/APIs abuse.md"
+              }
             }
           },
           {
@@ -146,12 +154,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "74ade572b3542bb7",
+  "active": "1b8025eb212434c7",
   "lastOpenFiles": [
+    "Images/Pasted image 20230818182644.png",
+    "Images/Pasted image 20230818182428.png",
+    "OWASP TOP 10 and web vulnerabilities/APIs abuse/desktop.ini",
+    "OWASP TOP 10 and web vulnerabilities/APIs abuse/APIs abuse.md",
+    "OWASP TOP 10 and web vulnerabilities/XSS/XSS.md",
+    "OWASP TOP 10 and web vulnerabilities/APIs abuse",
+    "OWASP TOP 10 and web vulnerabilities/Type Juggling attack/Type Juggling Attack.md",
+    "OWASP TOP 10 and web vulnerabilities/SSTI/SSTI.md",
+    "OWASP TOP 10 and web vulnerabilities/SSRF/SSRF.md",
+    "OWASP TOP 10 and web vulnerabilities/RFI/RFI.md",
+    "OWASP TOP 10 and web vulnerabilities/RCE/RCE.md",
+    "OWASP TOP 10 and web vulnerabilities/Padding Oracle Attack/Padding Oracle Attack.md",
+    "OWASP TOP 10 and web vulnerabilities/LFI/LFI.md",
+    "OWASP TOP 10 and web vulnerabilities/Log Poisoning (LFI to RCE)/Log Poisoning (LFI to RCE).md",
+    "OWASP TOP 10 and web vulnerabilities/LDAP injection/LDAP injection.md",
+    "OWASP TOP 10 and web vulnerabilities/LaTex Injection/LaTeX Injection.md",
+    "OWASP TOP 10 and web vulnerabilities/Deserialization attack/Deserialization attack.md",
+    "OWASP TOP 10 and web vulnerabilities/CSTI/CSTI.md",
+    "OWASP TOP 10 and web vulnerabilities/CSRF/CSRF or XSRF.md",
     "Programming languages/Python/Libreries/pwntools.md",
     "Nuevo Documento de texto.txt",
     "OWASP TOP 10 and web vulnerabilities/NoSQL Injection/NoSQL Injection.md",
-    "OWASP TOP 10 and web vulnerabilities/LDAP injection/LDAP injection.md",
     "Programming languages/Python/Libreries",
     "CTF/HackTheBox/TimeLapse/TimeLapse.md",
     "Tools/Active Directory/evil-winrm.md",
@@ -166,32 +192,15 @@
     "Images/Pasted image 20230816003656.png",
     "Tools/zip2john.md",
     "Tools/fcrackzip.md",
-    "Images/Pasted image 20230816002506.png",
     "General errors.md",
     "Tools/Active Directory/smbclient.md",
     "Tools/Active Directory/Crackmapexec/Crackmapexec.md",
     "repo",
     "Tools/Active Directory/smbmap.md",
-    "Tools/Active Directory/SMB && SAMBA.md",
     "Tools/Active Directory/desktop.ini",
     "Tools/Active Directory",
     "Tools/Enumeration/Crackmapexec/desktop.ini",
     "Tools/Active Directory/Crackmapexec",
-    "CTF/HackTheBox/TimeLapse/desktop.ini",
-    "OWASP TOP 10 and web vulnerabilities/LaTex Injection/LaTeX Injection.md",
-    "CTF/HackTheBox/TimeLapse",
-    "CTF/HackTheBox",
-    "Tools/Enumeration/Wfuzz.md",
-    "Tools/Enumeration/Fuff.md",
-    "Tools/Enumeration/httpx/httpx.md",
-    "OWASP TOP 10 and web vulnerabilities/Deserialization attack/Deserialization attack.md",
-    "Tools/Enumeration/Gobuster.md",
-    "Tools/Enumeration/arp-scan/arp-scan.md",
-    "Tools/Enumeration/Nmap/Nmap.md",
-    "Scale privilage/Elevate privilege.md",
-    "General commands.md",
-    "Programming languages/Python/Add proxy with requests.md",
-    "Tools/LDAP/ldapsearch.md",
-    "Tools/LDAP/ldapadd.md"
+    "CTF/HackTheBox/TimeLapse/desktop.ini"
   ]
 }
