@@ -4,31 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "fd87701baf51f306",
+        "id": "73101196c89ed550",
         "type": "tabs",
         "children": [
           {
-            "id": "170ee204ceb963c1",
+            "id": "74ade572b3542bb7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming languages/Python/Libreries/pwntools.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0fe41f66962874ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/NoSQL Injection/NoSQL Injection.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -77,8 +61,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -98,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming languages/Python/Libreries/pwntools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming languages/Python/Libreries/pwntools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Programming languages/Python/Libreries/pwntools.md"
-              }
+              "state": {}
             }
           },
           {
@@ -167,11 +146,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "170ee204ceb963c1",
+  "active": "74ade572b3542bb7",
   "lastOpenFiles": [
+    "Programming languages/Python/Libreries/pwntools.md",
     "Nuevo Documento de texto.txt",
     "OWASP TOP 10 and web vulnerabilities/NoSQL Injection/NoSQL Injection.md",
-    "Programming languages/Python/Libreries/pwntools.md",
     "OWASP TOP 10 and web vulnerabilities/LDAP injection/LDAP injection.md",
     "Programming languages/Python/Libreries",
     "CTF/HackTheBox/TimeLapse/TimeLapse.md",
@@ -202,7 +181,6 @@
     "OWASP TOP 10 and web vulnerabilities/LaTex Injection/LaTeX Injection.md",
     "CTF/HackTheBox/TimeLapse",
     "CTF/HackTheBox",
-    "CTF",
     "Tools/Enumeration/Wfuzz.md",
     "Tools/Enumeration/Fuff.md",
     "Tools/Enumeration/httpx/httpx.md",
