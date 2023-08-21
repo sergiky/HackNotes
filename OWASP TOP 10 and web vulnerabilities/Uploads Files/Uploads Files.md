@@ -5,7 +5,7 @@ You can upload a malicious file like a reverse shell in php if the server have a
 
 ---
 
-# First level
+# Upload 1
 
 You can upload a webshell write in php
 
@@ -22,7 +22,7 @@ When you open the url where is the image you can use the parameter cmd to inject
 
 ---
 
-# Third level
+# Upload 3
 
 Only admit files with extensions: .jpg, .jpeg, .bmp, gif, png
 
@@ -41,6 +41,20 @@ If we do ctr+shift+c and click in the buttom of uploads, three lines up we can d
 ![](../../Images/Pasted%20image%2020230821173229.png)
 
 If we delete the attribute we are omitting the script that check if the file have a correct extension
+
+Remember, when you reload the website you have to delete again the submit attribute
+
+And there we go
+
+![](../../Images/Pasted%20image%2020230821173434.png)
+
+🥳🥳 The file was upload successfully
+
+---
+
+# Upload 10
+
+
 
 ---
 
