@@ -4,40 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3d7fb70a6456c637",
+        "id": "dd3faad4e26efbae",
         "type": "tabs",
         "children": [
           {
-            "id": "2eb679d2d9e60842",
+            "id": "0a2acbabc551bb10",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/APIs abuse/APIs abuse.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6021cb521e8ff897",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tools/Enumeration/Ffuf.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1b8025eb212434c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tools/API/Postman.md",
+                "file": "OWASP TOP 10 and web vulnerabilities/Uploads Files/Uploads Files.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/APIs abuse/APIs abuse.md",
+                "file": "OWASP TOP 10 and web vulnerabilities/Uploads Files/Uploads Files.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/APIs abuse/APIs abuse.md",
+                "file": "OWASP TOP 10 and web vulnerabilities/Uploads Files/Uploads Files.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/APIs abuse/APIs abuse.md"
+                "file": "OWASP TOP 10 and web vulnerabilities/Uploads Files/Uploads Files.md"
               }
             }
           },
@@ -178,8 +154,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2eb679d2d9e60842",
+  "active": "0a2acbabc551bb10",
   "lastOpenFiles": [
+    "Images/Pasted image 20230821173229.png",
+    "Images/Pasted image 20230821172838.png",
+    "Images/Pasted image 20230821172705.png",
+    "OWASP TOP 10 and web vulnerabilities/APIs abuse/APIs abuse.md",
+    "OWASP TOP 10 and web vulnerabilities/Uploads Files/Uploads Files.md",
+    "OWASP TOP 10 and web vulnerabilities/Uploads Files",
     "Images/Pasted image 20230819014741.png",
     "Images/Pasted image 20230819014713.png",
     "Images/Pasted image 20230819014421.png",
@@ -188,11 +170,7 @@
     "Images/Pasted image 20230819013058.png",
     "Images/Pasted image 20230819012657.png",
     "Images/Pasted image 20230819011011.png",
-    "Images/Pasted image 20230819011002.png",
-    "Images/Pasted image 20230819010754.png",
-    "Images/Pasted image 20230819010622.png",
     "OWASP TOP 10 and web vulnerabilities/Mass Assignment Attack/Mass Assignment Attack.md",
-    "OWASP TOP 10 and web vulnerabilities/APIs abuse/APIs abuse.md",
     "OWASP TOP 10 and web vulnerabilities/Mass Assignment Attack",
     "Tools/Enumeration/Ffuf.md",
     "Tools/API/Postman.md",
@@ -221,10 +199,8 @@
     "Tools/Active Directory/evil-winrm.md",
     "Tools/zip2john.md",
     "Tools/fcrackzip.md",
-    "General errors.md",
     "repo",
     "Tools/Active Directory/desktop.ini",
-    "Tools/Active Directory",
-    "Tools/Enumeration/Crackmapexec/desktop.ini"
+    "Tools/Active Directory"
   ]
 }
