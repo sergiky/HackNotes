@@ -180,7 +180,15 @@ To use this is equal than the other ocassions
 
 # Upload 21
 
+This restrictions look the **magic numbers/ magic bytes** that are the first bytes of the file.
 
+In this case when we upload a file in Content-Type put application/x-php, in case that you upload a image the content type change to image-related
+
+You can change this:
+
+![](../../Images/Pasted%20image%2020230822165751.png)
+
+Another thing that you can do it
 
 ---
 

@@ -154,8 +154,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3727a671adc3428d",
+  "active": "0a2acbabc551bb10",
   "lastOpenFiles": [
+    "Images/Pasted image 20230822165751.png",
     "Shells/Web shell/Web shell.md",
     "OWASP TOP 10 and web vulnerabilities/Uploads Files/Uploads Files.md",
     "Images/Pasted image 20230822162110.png",
@@ -198,7 +199,6 @@
     "CTF/HackTheBox/TimeLapse/TimeLapse.md",
     "Tools/Active Directory/evil-winrm.md",
     "Tools/zip2john.md",
-    "Tools/fcrackzip.md",
     "repo",
     "Tools/Active Directory/desktop.ini",
     "Tools/Active Directory"
