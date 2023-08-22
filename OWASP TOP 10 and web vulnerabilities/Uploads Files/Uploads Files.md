@@ -225,6 +225,26 @@ Remember this, we can delete the **onsubmit attribute**
 
 And now we can use Burpsuite to see the request and response
 
+You can try if they are validating the content-type:
+
+Put the Content-Type of a GIF
+
+> Content-Type: image/gif
+
+Appear that don't work
+
+![](../../Images/Pasted%20image%2020230822172600.png)
+
+You can try to add the **GIF8;**
+
+![](../../Images/Pasted%20image%2020230822172653.png)
+
+And **works**!!
+
+---
+
+# Upload 31
+
 
 
 ---
