@@ -16,6 +16,12 @@ Or you can use only this:
 ?>
 ````
 
+A way to simplify this to saves size is this:
+
+````php
+<?=`$_GET[0]`?>
+````
+
 ---
 
 # Tags
