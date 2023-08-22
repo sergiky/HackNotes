@@ -7,7 +7,7 @@ You can upload a malicious file like a reverse shell in php if the server have a
 
 # Upload 1
 
-You can upload a webshell write in php
+You can upload a [Web shell](../../Shells/Web%20shell/Web%20shell.md) write in php
 
 ````php
 <?php
@@ -175,6 +175,10 @@ But you can limit this so much like this
 To use this is equal than the other ocassions
 
 > http://localhost:9001/upload17/uploads/setenso.php?0=id
+
+---
+
+# Upload 21
 
 
 
