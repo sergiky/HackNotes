@@ -336,6 +336,24 @@ This is because in source code, there are using a regex and don't put the final 
 
 ![](../../Images/Pasted%20image%2020230822182518.png)
 
+---
+
+# Upload 56
+
+In this directory you can indicate the directory name where the file go
+
+In this case when you click to the hyperlink, they are trying to download the file, if you copy the url and do a curl, you can check that is the same error
+
+![](../../Images/Pasted%20image%2020230822182901.png)
+
+With -G and --data-urlencode can indicate the data
+
+````bash
+curl -s -X GET "http://localhost:9001/upload56/pepe/cmd.php" -G --data-urlencode "cmd=id"
+````
+
+---
+
 
 
 ---

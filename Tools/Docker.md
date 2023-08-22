@@ -315,6 +315,14 @@ Create a new network:
 
 `--network` --> With the parameter network
 
+## Inspect the network
+
+To see the configuration file of the network
+
+> sudo docker inspect NAME_NETWORK
+
+
+
 -----
 
 # Iptables in docker
