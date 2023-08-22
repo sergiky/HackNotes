@@ -317,7 +317,7 @@ Create a new network:
 
 ## Inspect the network
 
-To see the configuration file of the network
+To see the configuration of the network
 
 > sudo docker inspect NAME_NETWORK
 
