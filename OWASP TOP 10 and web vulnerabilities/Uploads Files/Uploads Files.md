@@ -271,7 +271,33 @@ Now if you put this in the url, you can see the file
 
 # Upload 33
 
+In this case the hash is applied for all the name, include the .php extension
 
+![](../../Images/Pasted%20image%2020230822174847.png)
+
+But the URL have to content .php extension
+
+> http://localhost:9001/upload33/uploads/b0e4bdfca013a84e5f0b9bc9ae028945.php
+
+---
+
+# Upload 35
+
+You can obtain the md5 hash from the full file, no for the name
+
+![](../../Images/Pasted%20image%2020230822175357.png)
+
+You can try to search this, but doesn't work
+
+In this case the hash has **forty characters** this can be **sha1sum**
+
+Now we can see different variants, the sha1sum can be to the name of the file, to the name of the file with the extension or the file content, in this case is **file content**
+
+![](../../Images/Pasted%20image%2020230822175815.png)
+
+The URL be like:
+
+> http://localhost:9001/upload35/uploads/e7272b35c1795d0c4670a1ec0ba5b8dfbc42780c.php?cmd=id
 
 ---
 
