@@ -245,6 +245,32 @@ And **works**!!
 
 # Upload 31
 
+Same, intercept the web shell
+
+Mmm this is so rare, we can upload the file and see a gif
+
+![](../../Images/Pasted%20image%2020230822173032.png)
+
+Some developers keep the file with other name (this normally see when you don't have permission to do directory listening), the name of the GIF check is uploads/435ed7e9f07f740abf511a62c00eef6e.gif
+
+If you count the character
+
+![](../../Images/Pasted%20image%2020230822173359.png)
+
+You can see that are 32, the hashes in MD5 have a length of 32 characters
+
+You can use md5sum to see the hash
+
+> echo -n "cmd" |  md5sum
+
+Now if you put this in the url, you can see the file
+
+> http://localhost:9001/upload31/uploads/dfff0a7fa1a55c8c1a4966c19f6da452.php
+
+---
+
+# Upload 33
+
 
 
 ---
