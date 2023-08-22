@@ -82,6 +82,40 @@ In this case works with **php5**
 
 # Upload 11
 
+In this lab we try php1,2,3,4,5 but nothing of this works, php6 and php7 are sucessefully upload but the code is not interpreted, we have the **pht** extension an this works
+
+![](../../Images/Pasted%20image%2020230822154943.png)
+
+---
+
+# Upload 12
+
+In this case we can try a lof of extension, but doesn't work
+
+In this case we are going to create a extension that will be interpreted by php
+
+For more information you can search
+
+> .htaccess file upload bypass
+
+To do this you can do the following steps:
+
+1. In filename you can put [.htaccess](https://es.wikipedia.org/wiki/.htaccess)
+2. In Content-Type you can put text: **text/plain**
+3. Delete the content and put this phrase
+
+> AddType application/x-httpd-php .test
+
+
+With this phrase (that are going to be in .htaccess file) are you saying that all files that have .test can interprete php code
+
+![](../../Images/Pasted%20image%2020230822160350.png)
+
+If we can upload this file, all file that have extension .test are going to be interpreted by php
+
+![](../../Images/Pasted%20image%2020230822160515.png)
+![](../../Images/Pasted%20image%2020230822160528.png)
+
 
 
 ---
