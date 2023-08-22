@@ -188,7 +188,44 @@ You can change this:
 
 ![](../../Images/Pasted%20image%2020230822165751.png)
 
-Another thing that you can do it
+Another thing that you can do is to change the first bytes
+
+If you do a file cmd.php you can see that is a PHP script, if you use xxd cmd.php the first bytes identify the file.
+
+I don't know what are the first bytes that represent that
+
+![](../../Images/Pasted%20image%2020230822170201.png)
+
+You can search this in google 
+
+> list of signatures wikipedia
+
+And filter the bytes separated two by two
+
+Some types don't appear like php, but zip yes and a lot of more
+
+You can put **GIF8;** in the first line of the file, this is used in GIF files, if you use again xxd (you can see that bytes change) and file command you can see that appear like GIF file
+
+![](../../Images/Pasted%20image%2020230822170854.png)
+![](../../Images/Pasted%20image%2020230822170906.png)
+
+---
+
+# Uploads 23
+
+The restriction is that only admit GIF files (we see in **Upload 21**):
+
+But now there are a validation in the part of the client
+
+![](../../Images/Pasted%20image%2020230822171306.png)
+
+Remember this, we can delete the **onsubmit attribute**
+
+![](../../Images/Pasted%20image%2020230822171349.png)
+
+And now we can use Burpsuite to see the request and response
+
+
 
 ---
 
@@ -201,4 +238,4 @@ Another thing that you can do it
 
 # Tags
 
-#vulnerabilty #uploadfiles #webshell #php 
+#vulnerabilty #uploadfiles #webshell #php #magicnumbers #magicbytes
