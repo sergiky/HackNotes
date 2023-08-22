@@ -8,12 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0a2acbabc551bb10",
+            "id": "b6fa50edc91f3f13",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "OWASP TOP 10 and web vulnerabilities/Uploads Files/Uploads Files.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0a2acbabc551bb10",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tools/Metadata/ExifTool/ExifTool.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +77,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -155,10 +166,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0a2acbabc551bb10",
+  "active": "b6fa50edc91f3f13",
   "lastOpenFiles": [
-    "Tools/Docker.md",
+    "Tools/Metadata/ExifTool/ExifTool.md",
     "OWASP TOP 10 and web vulnerabilities/Uploads Files/Uploads Files.md",
+    "Tools/Metadata/ExifTool",
+    "Tools/Metadata",
+    "Tools/Docker.md",
     "Images/Pasted image 20230822182931.png",
     "Images/Pasted image 20230822182901.png",
     "Images/Pasted image 20230822182518.png",
@@ -199,9 +213,6 @@
     "Programming languages/Python/Libreries",
     "CTF/HackTheBox/TimeLapse/TimeLapse.md",
     "Tools/Active Directory/evil-winrm.md",
-    "Tools/zip2john.md",
-    "repo",
-    "Tools/Active Directory/desktop.ini",
-    "Tools/Active Directory"
+    "repo"
   ]
 }
