@@ -5,6 +5,8 @@ This technique allow to an attacker to execute JavaScript code modified the prop
 
 This property is used to define the properties and method of an object
 
+This attack is very rare to see
+
 ---
 
 When there are a merge of objects in the source code, may arise the prototype pollution
