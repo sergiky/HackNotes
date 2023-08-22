@@ -299,6 +299,43 @@ The URL be like:
 
 > http://localhost:9001/upload35/uploads/e7272b35c1795d0c4670a1ec0ba5b8dfbc42780c.php?cmd=id
 
+---
+
+# Upload 41
+
+In this case, the directory uploads doesn't exists and we don't have idea where is the cmd,php
+
+You can use bruteforce to know the directory (not recommendable in real servers ) 
+
+````bash
+gobuster dir -u http://localhost:9001/upload41/ -w /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt
+````
+
+This report a image directory
+![](../../Images/Pasted%20image%2020230822181625.png)
+
+If you search cmd.php in this directory
+
+![](../../Images/Pasted%20image%2020230822181744.png)
+
+Nice!!
+
+Remember, you can try with sha1, md5...
+
+---
+
+# Upload 51
+
+Sometimes the bad developers, indicate that if the file have the extension .jpg is correct, you can do an **attack of double extension**
+
+![](../../Images/Pasted%20image%2020230822182240.png)
+
+This will be interpreted by .php
+
+This is because in source code, there are using a regex and don't put the final **$**, this cause that you can add other extension at the end 
+
+![](../../Images/Pasted%20image%2020230822182518.png)
+
 
 
 ---
