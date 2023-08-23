@@ -154,8 +154,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3727a671adc3428d",
+  "active": "432d699540b33890",
   "lastOpenFiles": [
+    "Images/Pasted image 20230823183313.png",
+    "Images/Pasted image 20230823183304.png",
+    "Images/Pasted image 20230823183105.png",
+    "Images/Pasted image 20230823182901.png",
     "OWASP TOP 10 and web vulnerabilities/Mass Assignment Attack - parameter binding/Mass Assignment Attack - parameter binding.md",
     "OWASP TOP 10 and web vulnerabilities/Mass Assignment Attack - parameter binding",
     "Tools/Nvim.md",
@@ -177,9 +181,6 @@
     "Tools/Docker.md",
     "Images/Pasted image 20230822182931.png",
     "Images/Pasted image 20230822182901.png",
-    "Images/Pasted image 20230822182518.png",
-    "Images/Pasted image 20230822182240.png",
-    "Images/Pasted image 20230822181744.png",
     "Shells/Web shell/Web shell.md",
     "OWASP TOP 10 and web vulnerabilities/APIs abuse/APIs abuse.md",
     "OWASP TOP 10 and web vulnerabilities/Uploads Files",
@@ -201,7 +202,6 @@
     "OWASP TOP 10 and web vulnerabilities/Log Poisoning (LFI to RCE)/Log Poisoning (LFI to RCE).md",
     "OWASP TOP 10 and web vulnerabilities/LDAP injection/LDAP injection.md",
     "OWASP TOP 10 and web vulnerabilities/LaTex Injection/LaTeX Injection.md",
-    "OWASP TOP 10 and web vulnerabilities/Deserialization attack/Deserialization attack.md",
-    "OWASP TOP 10 and web vulnerabilities/CSTI/CSTI.md"
+    "OWASP TOP 10 and web vulnerabilities/Deserialization attack/Deserialization attack.md"
   ]
 }
