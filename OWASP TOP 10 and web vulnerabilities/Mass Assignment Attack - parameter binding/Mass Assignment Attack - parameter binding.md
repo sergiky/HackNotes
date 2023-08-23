@@ -28,12 +28,16 @@ If you go to the website, there are a new message
 
 ![](../../Images/Pasted%20image%2020230823183313.png)
 
+Now you can login with the mail
+
+
 
 ---
 # Labs
 
 - https://hub.docker.com/r/bkimminich/juice-shop
 
+> sudo docker pull blabla1337/owasp-skf-lab:parameter-binding
 
 ---
 
