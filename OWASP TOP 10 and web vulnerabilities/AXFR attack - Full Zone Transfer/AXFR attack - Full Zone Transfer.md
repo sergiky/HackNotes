@@ -11,6 +11,7 @@ In this case we are going to do a copy of the database and IP
 
 ``IXFR`` --> Zone transfer incremental, we take the data from the last transfer until now, this are more rare to found
 
+This type of attack is rare to see, at the day, the real server are well configured
 
 ---
 
