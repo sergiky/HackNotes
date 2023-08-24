@@ -8,6 +8,8 @@ If we can modified the parameter of the redirect, we can change the URL
 Normally this vulnerability is using for phishing
 Or you can aim to a internal service of a server and use an [XSS](../XSS/XSS.md) attack to an admin that click in the URL
 
+If you concatenate this vulnerability with others can be dangerous
+
 ---
 
 # Exploiting
