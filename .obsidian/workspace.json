@@ -156,6 +156,8 @@
   },
   "active": "c9bdf885d5761667",
   "lastOpenFiles": [
+    "Images/Pasted image 20230824181647.png",
+    "Images/Pasted image 20230824181057.png",
     "OWASP TOP 10 and web vulnerabilities/Open Redirect/Open Redirect.md",
     "OWASP TOP 10 and web vulnerabilities/Open Redirect",
     "OWASP TOP 10 and web vulnerabilities/Mass Assignment Attack - parameter binding/Mass Assignment Attack - parameter binding.md",
@@ -175,7 +177,6 @@
     "Images/Pasted image 20230823003844.png",
     "Images/Pasted image 20230823003713.png",
     "Images/Pasted image 20230823003530.png",
-    "Images/Pasted image 20230823002240.png",
     "OWASP TOP 10 and web vulnerabilities/Uploads Files/Uploads Files.md",
     "OWASP TOP 10 and web vulnerabilities/Prototype Pollution Attack",
     "Tools/Metadata/ExifTool/ExifTool.md",
@@ -201,7 +202,6 @@
     "OWASP TOP 10 and web vulnerabilities/LFI/LFI.md",
     "OWASP TOP 10 and web vulnerabilities/Log Poisoning (LFI to RCE)/Log Poisoning (LFI to RCE).md",
     "OWASP TOP 10 and web vulnerabilities/LDAP injection/LDAP injection.md",
-    "OWASP TOP 10 and web vulnerabilities/LaTex Injection/LaTeX Injection.md",
-    "OWASP TOP 10 and web vulnerabilities/Deserialization attack/Deserialization attack.md"
+    "OWASP TOP 10 and web vulnerabilities/LaTex Injection/LaTeX Injection.md"
   ]
 }
