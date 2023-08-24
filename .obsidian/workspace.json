@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bf84ad661ec400eb",
+        "id": "8273709ba1718072",
         "type": "tabs",
         "children": [
           {
-            "id": "432d699540b33890",
+            "id": "c9bdf885d5761667",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/Mass Assignment Attack - parameter binding/Mass Assignment Attack - parameter binding.md",
+                "file": "OWASP TOP 10 and web vulnerabilities/Open Redirect/Open Redirect.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/Mass Assignment Attack - parameter binding/Mass Assignment Attack - parameter binding.md",
+                "file": "OWASP TOP 10 and web vulnerabilities/Open Redirect/Open Redirect.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/Mass Assignment Attack - parameter binding/Mass Assignment Attack - parameter binding.md",
+                "file": "OWASP TOP 10 and web vulnerabilities/Open Redirect/Open Redirect.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/Mass Assignment Attack - parameter binding/Mass Assignment Attack - parameter binding.md"
+                "file": "OWASP TOP 10 and web vulnerabilities/Open Redirect/Open Redirect.md"
               }
             }
           },
@@ -154,14 +154,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "432d699540b33890",
+  "active": "c9bdf885d5761667",
   "lastOpenFiles": [
+    "OWASP TOP 10 and web vulnerabilities/Open Redirect/Open Redirect.md",
+    "OWASP TOP 10 and web vulnerabilities/Open Redirect",
+    "OWASP TOP 10 and web vulnerabilities/Mass Assignment Attack - parameter binding/Mass Assignment Attack - parameter binding.md",
     "Images/Pasted image 20230823185442.png",
     "Images/Pasted image 20230823183313.png",
     "Images/Pasted image 20230823183304.png",
     "Images/Pasted image 20230823183105.png",
     "Images/Pasted image 20230823182901.png",
-    "OWASP TOP 10 and web vulnerabilities/Mass Assignment Attack - parameter binding/Mass Assignment Attack - parameter binding.md",
     "OWASP TOP 10 and web vulnerabilities/Mass Assignment Attack - parameter binding",
     "Tools/Nvim.md",
     "OWASP TOP 10 and web vulnerabilities/AXFR attack - Full Zone Transfer/AXFR attack - Full Zone Transfer.md",
@@ -180,7 +182,6 @@
     "Tools/Metadata/ExifTool",
     "Tools/Metadata",
     "Tools/Docker.md",
-    "Images/Pasted image 20230822182931.png",
     "Shells/Web shell/Web shell.md",
     "OWASP TOP 10 and web vulnerabilities/APIs abuse/APIs abuse.md",
     "OWASP TOP 10 and web vulnerabilities/Uploads Files",
@@ -191,7 +192,6 @@
     "Tools/API",
     "OWASP TOP 10 and web vulnerabilities/APIs abuse/desktop.ini",
     "OWASP TOP 10 and web vulnerabilities/XSS/XSS.md",
-    "OWASP TOP 10 and web vulnerabilities/APIs abuse",
     "OWASP TOP 10 and web vulnerabilities/Type Juggling attack/Type Juggling Attack.md",
     "OWASP TOP 10 and web vulnerabilities/SSTI/SSTI.md",
     "OWASP TOP 10 and web vulnerabilities/SSRF/SSRF.md",
