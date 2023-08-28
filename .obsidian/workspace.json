@@ -30,8 +30,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "26d9b2adb2a8bece",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OWASP TOP 10 and web vulnerabilities/APIs abuse/APIs abuse.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b5309e3a13ac4758",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OWASP TOP 10 and web vulnerabilities/Prototype Pollution Attack/Prototype Pollution Attack.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f8b933819862d937",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OWASP TOP 10 and web vulnerabilities/LaTex Injection/LaTeX Injection.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -60,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tmux",
+                "query": "Content-",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +114,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -97,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/WebDAV/WebDAV.md",
+                "file": "OWASP TOP 10 and web vulnerabilities/LaTex Injection/LaTeX Injection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/WebDAV/WebDAV.md",
+                "file": "OWASP TOP 10 and web vulnerabilities/LaTex Injection/LaTeX Injection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/WebDAV/WebDAV.md"
+                "file": "OWASP TOP 10 and web vulnerabilities/LaTex Injection/LaTeX Injection.md"
               }
             }
           },
@@ -166,11 +204,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "594b3407d1de67fc",
+  "active": "f8b933819862d937",
   "lastOpenFiles": [
+    "OWASP TOP 10 and web vulnerabilities/APIs abuse/APIs abuse.md",
+    "OWASP TOP 10 and web vulnerabilities/Prototype Pollution Attack/Prototype Pollution Attack.md",
+    "Tools/Enumeration/Wfuzz.md",
+    "Tools/Enumeration/Tools to enum subdomains.md",
+    "Tools/Enumeration/Ffuf.md",
+    "OWASP TOP 10 and web vulnerabilities/WebDAV/WebDAV.md",
     "Tools/cadaver.md",
     "Tools/davtest.md",
-    "OWASP TOP 10 and web vulnerabilities/WebDAV/WebDAV.md",
     "Images/Pasted image 20230828174035.png",
     "Images/Pasted image 20230828172100.png",
     "OWASP TOP 10 and web vulnerabilities/WebDAV",
@@ -190,7 +233,6 @@
     "README.md",
     "Untitled.canvas",
     "Images/Pasted image 20230823162229.png",
-    "OWASP TOP 10 and web vulnerabilities/Prototype Pollution Attack/Prototype Pollution Attack.md",
     "OWASP TOP 10 and web vulnerabilities/AXFR attack - Full Zone Transfer",
     "OWASP TOP 10 and web vulnerabilities/Uploads Files/Uploads Files.md",
     "OWASP TOP 10 and web vulnerabilities/Prototype Pollution Attack",
@@ -199,11 +241,9 @@
     "Tools/Metadata",
     "Tools/Docker.md",
     "Shells/Web shell/Web shell.md",
-    "OWASP TOP 10 and web vulnerabilities/APIs abuse/APIs abuse.md",
     "OWASP TOP 10 and web vulnerabilities/Uploads Files",
     "OWASP TOP 10 and web vulnerabilities/Mass Assignment Attack/Mass Assignment Attack.md",
     "OWASP TOP 10 and web vulnerabilities/Mass Assignment Attack",
-    "Tools/Enumeration/Ffuf.md",
     "Tools/API/Postman.md",
     "Tools/API",
     "OWASP TOP 10 and web vulnerabilities/XSS/XSS.md",
@@ -212,8 +252,6 @@
     "OWASP TOP 10 and web vulnerabilities/SSRF/SSRF.md",
     "OWASP TOP 10 and web vulnerabilities/RFI/RFI.md",
     "OWASP TOP 10 and web vulnerabilities/RCE/RCE.md",
-    "OWASP TOP 10 and web vulnerabilities/Padding Oracle Attack/Padding Oracle Attack.md",
-    "OWASP TOP 10 and web vulnerabilities/LFI/LFI.md",
-    "OWASP TOP 10 and web vulnerabilities/Log Poisoning (LFI to RCE)/Log Poisoning (LFI to RCE).md"
+    "OWASP TOP 10 and web vulnerabilities/Padding Oracle Attack/Padding Oracle Attack.md"
   ]
 }

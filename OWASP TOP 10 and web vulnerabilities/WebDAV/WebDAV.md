@@ -34,7 +34,15 @@ There are other tool that is named [cadaver](../../Tools/cadaver.md)
 cadaver http://127.0.0.1
 ````
 
-This request you the user and password and is like an ftp interactive session
+This request you the user and password and is like an **ftp interactive session**
+
+You can upload files and will be interpreted (you can upload a reverse shell)
+
+> localhost/pwned/cmd.php
+
+or
+
+> localhost/cmd.php
 
 ----
 # Labs
