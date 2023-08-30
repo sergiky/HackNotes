@@ -35,10 +35,16 @@ Now we are going to try if the machine is avaialable
 
 ![](../../Images/Pasted%20image%2020230830190148.png)
 
+Now we are going to scan ports with [Nmap](../../Tools/Enumeration/Nmap/Nmap.md)
+
+````bash
+sudo nmap -p- --open -sT --min-rate 5000 -vvv -n -Pn 192.168.1.34 -oG allPorts
+````
+
 
 
 ---
 
 # Tags
 
-#machine 
+#machine #squidproxies 
