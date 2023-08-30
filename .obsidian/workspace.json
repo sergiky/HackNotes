@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CTF/VulnHub/SickOS 1.1.md",
+                "file": "OWASP TOP 10 and web vulnerabilities/Enumeration and exploiting SQUID Proxies/Enumeration and exploiting SQUID Proxies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CTF/VulnHub/SickOS 1.1.md",
+                "file": "OWASP TOP 10 and web vulnerabilities/Enumeration and exploiting SQUID Proxies/Enumeration and exploiting SQUID Proxies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CTF/VulnHub/SickOS 1.1.md"
+                "file": "OWASP TOP 10 and web vulnerabilities/Enumeration and exploiting SQUID Proxies/Enumeration and exploiting SQUID Proxies.md"
               }
             }
           },
@@ -179,12 +178,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0383605e18f45f73",
+  "active": "5b6189379ed54232",
   "lastOpenFiles": [
+    "CTF/VulnHub/SickOS 1.1.md",
     "Images/Pasted image 20230830190148.png",
     "OWASP TOP 10 and web vulnerabilities/Enumeration and exploiting SQUID Proxies/Enumeration and exploiting SQUID Proxies.md",
     "CTF/HackTheBox/TimeLapse/TimeLapse.md",
-    "CTF/VulnHub/SickOS 1.1.md",
     "Images/Pasted image 20230830185735.png",
     "Images/Pasted image 20230830185516.png",
     "CTF/VulnHub",
@@ -209,7 +208,6 @@
     "Images/Pasted image 20230823185442.png",
     "Images/Pasted image 20230823183313.png",
     "Images/Pasted image 20230823183304.png",
-    "Images/Pasted image 20230823183105.png",
     "OWASP TOP 10 and web vulnerabilities/Mass Assignment Attack - parameter binding",
     "Tools/Nvim.md",
     "OWASP TOP 10 and web vulnerabilities/AXFR attack - Full Zone Transfer/AXFR attack - Full Zone Transfer.md",
