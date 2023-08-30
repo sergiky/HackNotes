@@ -41,7 +41,7 @@ Now we are going to scan ports with [Nmap](../../Tools/Enumeration/Nmap/Nmap.md)
 sudo nmap -p- --open -sT --min-rate 5000 -vvv -n -Pn 192.168.1.34 -oG allPorts
 ````
 
-
+In this case we can't do this machine because is not visible in our network
 
 ---
 
