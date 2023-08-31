@@ -22,4 +22,4 @@ You can use [SickOS 1.1](../../CTF/VulnHub/SickOS%201.1.md) machine from Vulnhub
 
 # Tags
 
-#vulnerabilty 
+#vulnerabilty #shellshock

@@ -59,10 +59,40 @@ sudo nmap -sCV -p22,3128 192.168.1.38 -oN targeted
 
 ![](../../Images/Pasted%20image%2020230831175056.png)
 
+We do a curl, but we don't get anything
 
+````bash
+curl http://website
+````
+
+In port scanning you don't have to see the 80 port open, if you realize an scan of the port 80 with nmap, they say that is **filtered**
+
+````bash
+sudo nmap -p80 192.168.1.38 -T5 -v -n
+````
+
+![](../../Images/Pasted%20image%2020230831175504.png)
+
+
+You can try to use a proxy with curl command:
+````bash
+curl http://website --proxy http://ip:3128
+````
+
+Remember that the port was reported by nmap when scanning ports.
+
+Sometimes you need an **authentication**, you can this in the url:
+
+> curl http://website --proxy http://admin:password@192.168.1.12:3128
+
+You can add an entry in [FoxyProxy](https://addons.mozilla.org/es/firefox/addon/foxyproxy-standard/): 
+
+![](../../Images/Pasted%20image%2020230830225543.png)
+
+Now you can use [Gobuster](../../Tools/Enumeration/Gobuster.md) with the switch **--proxy **
 
 ---
 
 # Tags
 
-#machine #squidproxies 
+#machine #squidproxies #shellshock 
