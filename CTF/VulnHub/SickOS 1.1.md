@@ -1,4 +1,12 @@
 
+![](../../Images/SickOS%201.1.png)
+
+
+- Squid Proxy
+- ShellShock Attack
+
+---
+
 Welcome to everyone, today we are going exploiting [SickOS 1.1](https://www.vulnhub.com/entry/sickos-11,132/) machine in [VulnHub](https://www.vulnhub.com/) platform
 
 We have to download the ZIP and export this in our app ([Oracle Vritual Box](https://www.virtualbox.org/) or [VMWare](https://www.vmware.com/es/products/workstation-player/workstation-player-evaluation.html))
@@ -123,4 +131,4 @@ Sometimes you need an **authentication**, you can this in the url:
 
 # Tags
 
-#machine #squidproxies #shellshock 
+#machine #recon #nmap #gnu/linux # #squidproxies #shellshock 
