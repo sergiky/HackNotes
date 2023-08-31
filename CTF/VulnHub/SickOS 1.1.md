@@ -22,7 +22,7 @@ This use the local adapter, in my case is eth0, if you want to indicate other th
 
 `--ignoredups` --> This switch is used to avoid duplicated IP 
 
-![](../../Images/Pasted%20image%2020230830185735.png)
+![](../../Images/Pasted%20image%2020230831173638.png)
 
 Now we are going to create our works directory
 
@@ -30,18 +30,20 @@ Now we are going to create our works directory
 
 Now we are going to try if the machine is avaialable
 
-> ping -c 1 192.168.1.34
+> ping -c 1 192.168.1.38
 
 
-![](../../Images/Pasted%20image%2020230830190148.png)
+![](../../Images/Pasted%20image%2020230831173723.png)
 
-Now we are going to scan ports with [Nmap](../../Tools/Enumeration/Nmap/Nmap.md)
+Don't worry if the ping don't work, if you realize an port scan with [Nmap](../../Tools/Enumeration/Nmap/Nmap.md), you can see that return some open ports
 
 ````bash
-sudo nmap -p- --open -sT --min-rate 5000 -vvv -n -Pn 192.168.1.34 -oG allPorts
+sudo nmap -p- --open -sT --min-rate 5000 -vvv -n -Pn 192.168.1.38 -oG allPorts
 ````
 
-In this case we can't do this machine because is not visible in our network
+![](../../Images/Pasted%20image%2020230831173703.png)
+
+
 
 ---
 

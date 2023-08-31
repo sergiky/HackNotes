@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/Enumeration and exploiting SQUID Proxies/Enumeration and exploiting SQUID Proxies.md",
+                "file": "OWASP TOP 10 and web vulnerabilities/ShellShock Attack/ShellShock Attack.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -89,8 +90,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/Enumeration and exploiting SQUID Proxies/Enumeration and exploiting SQUID Proxies.md",
+                "file": "CTF/VulnHub/SickOS 1.1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/Enumeration and exploiting SQUID Proxies/Enumeration and exploiting SQUID Proxies.md",
+                "file": "CTF/VulnHub/SickOS 1.1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/Enumeration and exploiting SQUID Proxies/Enumeration and exploiting SQUID Proxies.md"
+                "file": "CTF/VulnHub/SickOS 1.1.md"
               }
             }
           },
@@ -179,14 +179,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5b6189379ed54232",
+  "active": "0383605e18f45f73",
   "lastOpenFiles": [
-    "Images/Pasted image 20230830225543.png",
+    "Images/Pasted image 20230831173723.png",
+    "Images/Pasted image 20230831173703.png",
+    "Images/Pasted image 20230831173638.png",
+    "OWASP TOP 10 and web vulnerabilities/ShellShock Attack/ShellShock Attack.md",
     "CTF/VulnHub/SickOS 1.1.md",
+    "OWASP TOP 10 and web vulnerabilities/Enumeration and exploiting SQUID Proxies/Enumeration and exploiting SQUID Proxies.md",
+    "OWASP TOP 10 and web vulnerabilities/ShellShock Attack",
+    "Images/Pasted image 20230830225543.png",
     "CTF/HackTheBox/TimeLapse/TimeLapse.md",
     "OWASP TOP 10 and web vulnerabilities/Deserialization attack/Deserialization attack.md",
     "OWASP TOP 10 and web vulnerabilities/Padding Oracle Attack/Padding Oracle Attack.md",
-    "OWASP TOP 10 and web vulnerabilities/Enumeration and exploiting SQUID Proxies/Enumeration and exploiting SQUID Proxies.md",
     "Images/Pasted image 20230830190148.png",
     "Images/Pasted image 20230830185735.png",
     "Images/Pasted image 20230830185516.png",
@@ -209,9 +214,6 @@
     "Images/Pasted image 20230824181057.png",
     "OWASP TOP 10 and web vulnerabilities/Open Redirect",
     "OWASP TOP 10 and web vulnerabilities/Mass Assignment Attack - parameter binding/Mass Assignment Attack - parameter binding.md",
-    "Images/Pasted image 20230823185442.png",
-    "Images/Pasted image 20230823183313.png",
-    "Images/Pasted image 20230823183304.png",
     "OWASP TOP 10 and web vulnerabilities/Mass Assignment Attack - parameter binding",
     "Tools/Nvim.md",
     "OWASP TOP 10 and web vulnerabilities/AXFR attack - Full Zone Transfer/AXFR attack - Full Zone Transfer.md",
@@ -225,8 +227,6 @@
     "Tools/Metadata",
     "Tools/Docker.md",
     "Shells/Web shell/Web shell.md",
-    "OWASP TOP 10 and web vulnerabilities/Uploads Files",
-    "OWASP TOP 10 and web vulnerabilities/Mass Assignment Attack/Mass Assignment Attack.md",
-    "Tools/API/Postman.md"
+    "OWASP TOP 10 and web vulnerabilities/Mass Assignment Attack/Mass Assignment Attack.md"
   ]
 }
