@@ -28,7 +28,7 @@ Now we are going to create our works directory
 
 > mkdir {nmap.data,exploit}
 
-Now we are going to try if the machine is avaialable
+Now we are going to try if the machine is available
 
 > ping -c 1 192.168.1.38
 
@@ -43,7 +43,23 @@ sudo nmap -p- --open -sT --min-rate 5000 -vvv -n -Pn 192.168.1.38 -oG allPorts
 
 ![](../../Images/Pasted%20image%2020230831173703.png)
 
-Now with extractPorts
+Now with [ExtractPorts](../../Utils/S4vitaar/ExtractPorts/ExtractPorts.md) (util from [S4vitaar](https://www.youtube.com/s4vitar)) we can copy the ports to the clipboard and the information looks better.
+
+![](../../Images/Pasted%20image%2020230831174725.png)
+
+Now we can use an advance scan to discover the service and version that are running for this ports.
+
+````bash
+sudo nmap -sCV -p22,3128 192.168.1.38 -oN targeted
+````
+
+`-sCV` --> C launch some scripts to enum the services, and V for know the version of the services, these are two separated switches but can be used together
+
+`-oN` --> Export the information in a file with **nmap format** (how you see in the output)
+
+![](../../Images/Pasted%20image%2020230831175056.png)
+
+
 
 ---
 
