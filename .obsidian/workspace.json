@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF/VulnHub/SickOS 1.1.md",
+                "file": "Utils/S4vitaar/ExtractPorts/ExtractPorts.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CTF/VulnHub/SickOS 1.1.md",
+                "file": "Utils/S4vitaar/ExtractPorts/ExtractPorts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CTF/VulnHub/SickOS 1.1.md",
+                "file": "Utils/S4vitaar/ExtractPorts/ExtractPorts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CTF/VulnHub/SickOS 1.1.md"
+                "file": "Utils/S4vitaar/ExtractPorts/ExtractPorts.md"
               }
             }
           },
@@ -181,11 +181,16 @@
   },
   "active": "0383605e18f45f73",
   "lastOpenFiles": [
+    "OWASP TOP 10 and web vulnerabilities/ShellShock Attack/ShellShock Attack.md",
+    "Utils/S4vitaar/ExtractPorts/ExtractPorts.md",
+    "Utils/desktop.ini",
+    "CTF/VulnHub/SickOS 1.1.md",
+    "Utils/S4vitaar/ExtractPorts",
+    "Utils/S4vitaar",
+    "Utils",
     "Images/Pasted image 20230831173723.png",
     "Images/Pasted image 20230831173703.png",
     "Images/Pasted image 20230831173638.png",
-    "OWASP TOP 10 and web vulnerabilities/ShellShock Attack/ShellShock Attack.md",
-    "CTF/VulnHub/SickOS 1.1.md",
     "OWASP TOP 10 and web vulnerabilities/Enumeration and exploiting SQUID Proxies/Enumeration and exploiting SQUID Proxies.md",
     "OWASP TOP 10 and web vulnerabilities/ShellShock Attack",
     "Images/Pasted image 20230830225543.png",
@@ -211,7 +216,6 @@
     "OWASP TOP 10 and web vulnerabilities/WebDAV",
     "OWASP TOP 10 and web vulnerabilities/Open Redirect/Open Redirect.md",
     "Images/Pasted image 20230824181647.png",
-    "Images/Pasted image 20230824181057.png",
     "OWASP TOP 10 and web vulnerabilities/Open Redirect",
     "OWASP TOP 10 and web vulnerabilities/Mass Assignment Attack - parameter binding/Mass Assignment Attack - parameter binding.md",
     "OWASP TOP 10 and web vulnerabilities/Mass Assignment Attack - parameter binding",
@@ -219,14 +223,9 @@
     "OWASP TOP 10 and web vulnerabilities/AXFR attack - Full Zone Transfer/AXFR attack - Full Zone Transfer.md",
     "README.md",
     "Untitled.canvas",
-    "OWASP TOP 10 and web vulnerabilities/AXFR attack - Full Zone Transfer",
     "OWASP TOP 10 and web vulnerabilities/Uploads Files/Uploads Files.md",
-    "OWASP TOP 10 and web vulnerabilities/Prototype Pollution Attack",
     "Tools/Metadata/ExifTool/ExifTool.md",
-    "Tools/Metadata/ExifTool",
-    "Tools/Metadata",
     "Tools/Docker.md",
-    "Shells/Web shell/Web shell.md",
-    "OWASP TOP 10 and web vulnerabilities/Mass Assignment Attack/Mass Assignment Attack.md"
+    "Shells/Web shell/Web shell.md"
   ]
 }

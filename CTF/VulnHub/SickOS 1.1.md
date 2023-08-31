@@ -43,7 +43,7 @@ sudo nmap -p- --open -sT --min-rate 5000 -vvv -n -Pn 192.168.1.38 -oG allPorts
 
 ![](../../Images/Pasted%20image%2020230831173703.png)
 
-
+Now with extractPorts
 
 ---
 
