@@ -76,20 +76,48 @@ sudo nmap -p80 192.168.1.38 -T5 -v -n
 
 You can try to use a proxy with curl command:
 ````bash
-curl http://website --proxy http://ip:3128
+curl http://192.168.1.38 --proxy http://192.168.1.38:3128
 ````
 
-Remember that the port was reported by nmap when scanning ports.
+Remember that the port 3128 was reported by nmap when scanning ports.
+
+You can add an entry in [FoxyProxy](https://addons.mozilla.org/es/firefox/addon/foxyproxy-standard/): 
+
+![](../../Images/Pasted%20image%2020230831175738.png)
+
+If you enable it and put the ip you can see the website
+
+Now you can use [Gobuster](../../Tools/Enumeration/Gobuster.md) to enum directories with the switch **--proxy **
+
+````bash
+gobuster dir -u http://192.168.1.38 --proxy http://192.168.1.38:3128 -w /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt -t 20
+````
+
+![](../../Images/Pasted%20image%2020230831180156.png)
+
+You can enumerate the internal port with an script in Python, this is in [Enumeration and exploiting SQUID Proxies](../../OWASP%20TOP%2010%20and%20web%20vulnerabilities/Enumeration%20and%20exploiting%20SQUID%20Proxies/Enumeration%20and%20exploiting%20SQUID%20Proxies.md)
+
+
+
+![](../../Images/Pasted%20image%2020230831183405.png)
+
+We can see in the internal ports that the service 80 and 3306 (MySQL) are exposed
+
+We can do a curl to the port 3306
+
+> curl http://127.0.0.1:3306 --proxy http://192.168.1.38:3128
+
+![](../../Images/Pasted%20image%2020230831183554.png)
+
+They say that we have to use the switch **--output** because is a binary file
+
+> curl http://127.0.0.1:3306 --proxy http://192.168.1.38:3128 --output output
+
+![](../../Images/Pasted%20image%2020230831183740.png)
 
 Sometimes you need an **authentication**, you can this in the url:
 
 > curl http://website --proxy http://admin:password@192.168.1.12:3128
-
-You can add an entry in [FoxyProxy](https://addons.mozilla.org/es/firefox/addon/foxyproxy-standard/): 
-
-![](../../Images/Pasted%20image%2020230830225543.png)
-
-Now you can use [Gobuster](../../Tools/Enumeration/Gobuster.md) with the switch **--proxy **
 
 ---
 
