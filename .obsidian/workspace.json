@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/ShellShock Attack/ShellShock Attack.md",
+                "file": "CTF/VulnHub/SickOS 1.1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/ShellShock Attack/ShellShock Attack.md",
+                "file": "CTF/VulnHub/SickOS 1.1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/ShellShock Attack/ShellShock Attack.md"
+                "file": "CTF/VulnHub/SickOS 1.1.md"
               }
             }
           },
@@ -166,12 +167,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5b6189379ed54232",
+  "active": "0383605e18f45f73",
   "lastOpenFiles": [
+    "Images/Pasted image 20230901144013.png",
+    "OWASP TOP 10 and web vulnerabilities/ShellShock Attack/ShellShock Attack.md",
+    "CTF/VulnHub/SickOS 1.1.md",
+    "Images/Pasted image 20230901143215.png",
+    "Images/Pasted image 20230901143137.png",
     "OWASP TOP 10 and web vulnerabilities/Enumeration and exploiting SQUID Proxies/Enumeration and exploiting SQUID Proxies.md",
     "OWASP TOP 10 and web vulnerabilities/WebDAV/WebDAV.md",
-    "CTF/VulnHub/SickOS 1.1.md",
-    "OWASP TOP 10 and web vulnerabilities/ShellShock Attack/ShellShock Attack.md",
     "Images/Pasted image 20230901141914.png",
     "Images/Pasted image 20230901141658.png",
     "CTF/HackTheBox/TimeLapse/TimeLapse.md",
@@ -181,8 +185,6 @@
     "Images/Pasted image 20230831183740.png",
     "Images/Pasted image 20230831183554.png",
     "Images/Pasted image 20230831183405.png",
-    "Images/Pasted image 20230831180156.png",
-    "Images/Pasted image 20230831175738.png",
     "Utils/S4vitaar/ExtractPorts/ExtractPorts.md",
     "Utils/desktop.ini",
     "Utils/S4vitaar/ExtractPorts",
