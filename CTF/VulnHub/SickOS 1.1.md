@@ -127,8 +127,10 @@ Sometimes you need an **authentication**, you can this in the url:
 
 > curl http://website --proxy http://admin:password@192.168.1.12:3128
 
+
+
 ---
 
 # Tags
 
-#machine #recon #nmap #gnu/linux # #squidproxies #shellshock 
+#machine #recon #nmap #gnu/linux #squidproxies #shellshock 
