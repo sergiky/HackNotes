@@ -127,10 +127,51 @@ Sometimes you need an **authentication**, you can this in the url:
 
 > curl http://website --proxy http://admin:password@192.168.1.12:3128
 
+---
+## Exploiting Shell Shock
+
+Remember where you are enum a server if you add an slash at the final you can discover more resources
+
+````bash
+gobuster dir -u http://192.168.1.38 --proxy http://192.168.1.38:3128 -w /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt -t 20 --add-slash
+````
+
+`--add-slash` --> We add this switch to add an slash at the final
+
+![](../../Images/Pasted%20image%2020230901140219.png)
+
+Normally if you find a **/cgi-bin/** is recommendable to enum a [ShellShock Attack](../../OWASP%20TOP%2010%20and%20web%20vulnerabilities/ShellShock%20Attack/ShellShock%20Attack.md) 
+
+With gobuster you can enum some extensions like pl, sh, cgi
+
+````bash
+gobuster dir -u http://192.168.1.38/cgi-bin/ --proxy http://192.168.1.38:3128 -w /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt -t 20 --add-slash -x pl,sh,cgi
+````
+
+In this case we found a /status/
+
+![](../../Images/Pasted%20image%2020230901141658.png)
+
+If you open with the explorer you see this:
+
+![](../../Images/Pasted%20image%2020230901141914.png)
+
+If you reload the website, the uptime is changing
+
+We can use curl and jq to see the data 
+
+````bash
+curl -s http://127.0.0.1/cgi-bin/status --proxy http://192.168.1.38:3128 | jq
+````
+
+`-s` --> Don't show the verbose of the curl command
+
+`jq` --> Command to see better the json files
+
 
 
 ---
 
 # Tags
 
-#machine #recon #nmap #gnu/linux #squidproxies #shellshock 
+#machine #recon #nmap #gnu/linux #squidproxies #shellshock #gobuster

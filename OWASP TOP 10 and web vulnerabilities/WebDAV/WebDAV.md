@@ -3,6 +3,8 @@
 **Web Distributed Authoring and Versioning**
 Is a protocol that allow you to save files, modified or shared in a web server
 
+This is **not consider a vulnerability**
+
 ---
 
 ![](../../Images/Pasted%20image%2020230828172100.png)
