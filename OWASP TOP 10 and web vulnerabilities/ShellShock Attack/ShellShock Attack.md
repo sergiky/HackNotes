@@ -3,13 +3,13 @@
 
 It's a vulnerability recognized in GNU/Linux system that allow to an attacker to execute commands from a remote mode, know as **Bashdoor** 
 
-This vulnerabilty was discover in 2014
+This vulnerability was discover in 2014
 
 ---
 
 # When can exploit this?
 
-- When the version of the GNU Bash exceed **4.3** version
+- When the version of the GNU Bash will be 1.13-**4.3** version
 
 
 ----

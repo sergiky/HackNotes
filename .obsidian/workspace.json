@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e5e04a54285ca263",
+            "id": "5b6189379ed54232",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/Enumeration and exploiting SQUID Proxies/Enumeration and exploiting SQUID Proxies.md",
+                "file": "OWASP TOP 10 and web vulnerabilities/ShellShock Attack/ShellShock Attack.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,18 +38,6 @@
               "type": "markdown",
               "state": {
                 "file": "CTF/VulnHub/SickOS 1.1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5b6189379ed54232",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/ShellShock Attack/ShellShock Attack.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/Enumeration and exploiting SQUID Proxies/Enumeration and exploiting SQUID Proxies.md",
+                "file": "OWASP TOP 10 and web vulnerabilities/ShellShock Attack/ShellShock Attack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/Enumeration and exploiting SQUID Proxies/Enumeration and exploiting SQUID Proxies.md",
+                "file": "OWASP TOP 10 and web vulnerabilities/ShellShock Attack/ShellShock Attack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/Enumeration and exploiting SQUID Proxies/Enumeration and exploiting SQUID Proxies.md"
+                "file": "OWASP TOP 10 and web vulnerabilities/ShellShock Attack/ShellShock Attack.md"
               }
             }
           },
@@ -190,11 +178,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e5e04a54285ca263",
+  "active": "5b6189379ed54232",
   "lastOpenFiles": [
+    "OWASP TOP 10 and web vulnerabilities/Enumeration and exploiting SQUID Proxies/Enumeration and exploiting SQUID Proxies.md",
     "CTF/VulnHub/SickOS 1.1.md",
     "CTF/HackTheBox/TimeLapse/TimeLapse.md",
-    "OWASP TOP 10 and web vulnerabilities/Enumeration and exploiting SQUID Proxies/Enumeration and exploiting SQUID Proxies.md",
     "OWASP TOP 10 and web vulnerabilities/ShellShock Attack/ShellShock Attack.md",
     "Images/SickOS 1.1.png",
     "Images/0-Intro.png",
