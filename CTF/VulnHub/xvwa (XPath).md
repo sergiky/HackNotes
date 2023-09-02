@@ -186,3 +186,23 @@ at first glance, they look like three columns
 ![](../../Images/Pasted%20image%2020230902191847.png)
 
 But we can try 4,5,6 and doesn't work
+
+You can try an union select
+
+````bash
+search=1' union select 1,2,3-- -&submit=
+````
+
+1,2,3,4... and the output is the same, Item not found
+
+You can try other queries like:
+
+````bash
+search=1' or sleep(5)-- -&submit=
+````
+
+````bash
+search=1' and sleep(5)-- -&submit=
+````
+
+In this situation, you should think about [XPath Injection](../../OWASP%20TOP%2010%20and%20web%20vulnerabilities/XPath%20Injections/XPath%20Injection.md) 
