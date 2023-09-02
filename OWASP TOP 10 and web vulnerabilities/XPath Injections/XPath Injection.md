@@ -16,9 +16,16 @@ XPath can be vulnerable if is not well sanitized
 
 ---
 
+# How to identify
+
+Imagine that have a potential vector (some field) you can test with some SQLi
+
+
+---
+
 # Exploiting
 
-We are using
+We are using [xvwa (XPath)](../../CTF/VulnHub/xvwa%20(XPath).md) machine
 
 ---
 

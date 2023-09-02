@@ -126,3 +126,63 @@ The result of the query will be
 
 > /Coffees/Coffee\[@ID='1'\];
 
+We intercept the request in the Burpsuite
+
+And image that we don't have idea about what is running in the background, but this field is a potentially vector, we try with SQLi, NoSQLi
+
+We can try
+
+````bash
+search=1'&submit=
+search=1' or 1=1&submit=
+````
+
+Remember that in a query you have a single quoute that stay hanging
+
+````sql
+select * from coffees where id='1' or 1=1';
+````
+
+You can comment the rest to resolve:
+
+````bash
+search=1' or 1=1-- -&submit=
+search=1' or 1=1#&submit=
+````
+
+Or you can avoid the comment if you add quotes like this:
+
+````bash
+search=1' or '1'='1&submit=
+````
+
+Look up. You see that we are not closing the last quote because we image that have another quote that will be closing this quote.
+
+And boom, we can see a lot of products
+
+![](../../Images/Pasted%20image%2020230902191121.png)
+
+But this is not SQL, remember
+
+In this case the problem is the same 
+
+> /Coffees/Coffee\[@ID='1'\];
+
+
+As we assume that is a SQLi we keep trying with SQLi, remember, the next typicall query is:
+
+````bash
+search=1' order by 100-- -&submit=
+````
+
+Mmm, we don't see nothing, will there be fewer columns?
+
+````bash
+search=1' order by 3-- -&submit=
+````
+
+at first glance, they look like three columns
+
+![](../../Images/Pasted%20image%2020230902191847.png)
+
+But we can try 4,5,6 and doesn't work
