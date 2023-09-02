@@ -16,6 +16,12 @@ XPath can be vulnerable if is not well sanitized
 
 ---
 
+# Exploiting
+
+We are using
+
+---
+
 # Labs
 
 https://www.vulnhub.com/entry/xtreme-vulnerable-web-application-xvwa-1,209/
