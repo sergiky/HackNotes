@@ -156,6 +156,8 @@ Or you can avoid the comment if you add quotes like this:
 search=1' or '1'='1&submit=
 ````
 
+Remember, you can try this with double quoutes
+
 Look up. You see that we are not closing the last quote because we image that have another quote that will be closing this quote.
 
 And boom, we can see a lot of products

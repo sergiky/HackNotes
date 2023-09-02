@@ -29,6 +29,7 @@ We are using [xvwa (XPath)](../../CTF/VulnHub/xvwa%20(XPath).md) machine
 
 ---
 
-# Labs
+# Resources
 
-https://www.vulnhub.com/entry/xtreme-vulnerable-web-application-xvwa-1,209/
+- https://www.vulnhub.com/entry/xtreme-vulnerable-web-application-xvwa-1,209/
+- https://book.hacktricks.xyz/pentesting-web/xpath-injection
