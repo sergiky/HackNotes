@@ -109,3 +109,20 @@ Now in our machine we can download the file with curl
 Now we can begin with the exploitation of the vulnerabilty
 
 ## Intercept petition with Burpsuite
+
+Before take the request, try the page, if you put a number they give you some information about a coffee, the number is an identifier.
+
+![](../../Images/Pasted%20image%2020230902185242.png)
+
+![](../../Images/Pasted%20image%2020230902185334.png)
+
+The query to obtain the data is in home.php, we can get from the server
+
+> wget 192.168.1.70:8084/home.php
+
+![](../../Images/Pasted%20image%2020230902185542.png)
+
+The result of the query will be
+
+> /Coffees/Coffee\[@ID='1'\];
+
