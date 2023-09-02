@@ -130,6 +130,8 @@ We intercept the request in the Burpsuite
 
 And image that we don't have idea about what is running in the background, but this field is a potentially vector, we try with SQLi, NoSQLi
 
+## Try injections (black box)
+
 We can try
 
 ````bash
@@ -208,3 +210,18 @@ search=1' and sleep(5)-- -&submit=
 ````
 
 In this situation, you should think about [XPath Injection](../../OWASP%20TOP%2010%20and%20web%20vulnerabilities/XPath%20Injections/XPath%20Injection.md) 
+
+## Find the name of the tags, values of attributes...
+
+The first is discover how many primary tags are in the xml file, in this case only one **Coffees** 
+
+With this query you are counting the primary tags that have the document
+
+````bash
+search=1' and count(/*)='1&submit=
+````
+
+The second quote is for closing the quote that we don't see.
+
+If you put 2, you don't see the product, this mean that **only exists one** primary tag (remember that primary tag in this case is **Coffees**)
+
