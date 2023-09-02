@@ -5,6 +5,7 @@ tags:
   - xpath
   - arp-scan
   - nmap
+  - sqli
 ---
 
 ![](../../Images/XVWA.png)
@@ -213,6 +214,8 @@ In this situation, you should think about [XPath Injection](../../OWASP%20TOP%20
 
 ## Find the name of the tags, values of attributes...
 
+All that we find we are going to represent in a xml file, in this case the name is data.xml
+
 The first is discover how many primary tags are in the xml file, in this case only one **Coffees** 
 
 With this query you are counting the primary tags that have the document
@@ -225,3 +228,28 @@ The second quote is for closing the quote that we don't see.
 
 If you put 2, you don't see the product, this mean that **only exists one** primary tag (remember that primary tag in this case is **Coffees**)
 
+We know that we have a primary tag, but we don't know the name:
+
+````xml
+<>
+
+</>
+````
+
+### Discover the name of the main/primary tag
+
+````bash
+search=1' and name(/*[1])='Coffees&submit=
+````
+
+`[1]` --> This indicate that you want to represent the name of the first tag, if you want the name of the second you will be put `[2]` 
+
+But you don't know the name of the tag, to do this yo can play with substring like sqli
+
+````bash
+search=1' and substring(name(/*[1]),1,1)='C&submit=
+````
+
+`1,1` --> Indicate the first character
+
+If you put a `c` you don't see the product
