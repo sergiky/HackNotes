@@ -156,10 +156,11 @@
   },
   "active": "bf0b8f5ba0055196",
   "lastOpenFiles": [
+    "Images/Pasted image 20230904192056.png",
     "OWASP TOP 10 and web vulnerabilities/IDORs/IDORs.md",
     "OWASP TOP 10 and web vulnerabilities/IDORs",
     "OWASP TOP 10 and web vulnerabilities/XPath Injections/XPath Injection.md",
-    "CTF/VulnHub/xvwa (XPath).md",
+    "CTF/VulnHub/xvwa.md",
     "Images/Pasted image 20230904174859.png",
     "Images/Pasted image 20230904171725.png",
     "Images/Pasted image 20230904163639.png",
@@ -201,7 +202,6 @@
     "OWASP TOP 10 and web vulnerabilities/Open Redirect/Open Redirect.md",
     "Tools/Nvim.md",
     "OWASP TOP 10 and web vulnerabilities/AXFR attack - Full Zone Transfer/AXFR attack - Full Zone Transfer.md",
-    "README.md",
     "Untitled.canvas"
   ]
 }

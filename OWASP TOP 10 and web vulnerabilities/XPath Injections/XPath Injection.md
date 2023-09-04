@@ -24,7 +24,7 @@ Imagine that have a potential vector (some field) you can test with some SQLi
 
 # Exploiting
 
-You can find more exploiting way in [xvwa (XPath)](../../CTF/VulnHub/xvwa%20(XPath).md) machine
+You can find more exploiting way in [xvwa](../../CTF/VulnHub/xvwa.md) machine
 
 ---
 
