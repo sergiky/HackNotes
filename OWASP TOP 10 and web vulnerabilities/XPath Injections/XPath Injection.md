@@ -4,7 +4,6 @@ tags:
   - xpath
   - python
   - "#vulnhub"
-Labs:
 ---
 ---
 
