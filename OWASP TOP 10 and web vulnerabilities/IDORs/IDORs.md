@@ -15,7 +15,7 @@ In this case we have a list with only five types of coffee
 
 If you look up in the URL, you can see that the id is indicate them, if you try to change the number, for example **ten** you have to see another type of coffee that is not available
 
-> http://192.168.1.70/xvwa/vulnerabilities/idor/?item=1
+> http://192.168.1.70/xvwa/vulnerabilities/idor/?item=10
 
 # Labs
 
