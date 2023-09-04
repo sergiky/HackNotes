@@ -330,3 +330,12 @@ Now we know that we have to iterate for 7 characters
 
 This is very util for our script
 
+Nice!, we have the first tag **Coffees**
+
+We can add this in our structure file (data.xml)
+
+
+![](../../Images/Pasted%20image%2020230904140245.png)
+
+## Enumerate the name of secondary tags
+

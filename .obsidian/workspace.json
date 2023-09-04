@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/XPath Injections/XPath Injection.md",
+                "file": "CTF/VulnHub/xvwa (XPath).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/XPath Injections/XPath Injection.md",
+                "file": "CTF/VulnHub/xvwa (XPath).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/XPath Injections/XPath Injection.md"
+                "file": "CTF/VulnHub/xvwa (XPath).md"
               }
             }
           },
@@ -167,10 +166,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6bcf0c0ea05f496b",
+  "active": "7acfa1069af734bd",
   "lastOpenFiles": [
-    "CTF/VulnHub/xvwa (XPath).md",
+    "Images/Pasted image 20230904140245.png",
+    "Images/Pasted image 20230904140238.png",
     "OWASP TOP 10 and web vulnerabilities/XPath Injections/XPath Injection.md",
+    "CTF/VulnHub/xvwa (XPath).md",
     "Images/Pasted image 20230902191847.png",
     "Images/Pasted image 20230902191121.png",
     "Images/Pasted image 20230902185542.png",
@@ -180,7 +181,6 @@
     "Images/Pasted image 20230902183732.png",
     "Images/Pasted image 20230902182608.png",
     "Images/Pasted image 20230902182320.png",
-    "Images/Pasted image 20230902181938.png",
     "CTF/HackTheBox/TimeLapse/TimeLapse.md",
     "CTF/VulnHub/Untitled",
     "OWASP TOP 10 and web vulnerabilities/XPath Injections",
