@@ -472,4 +472,31 @@ You can do this for every second tags (in this case all the tags are the same Co
 'search': "1' and substring(name(/*[1]/*[2]),%d,1)='%s"  % (position, character),
 ````
 
-You can add a new loop to iterate in the second square brackets
+You can add a new loop to iterate the second square brackets
+
+Now we can change the data.xml file
+
+If you are used nvim you can use
+
+````bash
+%s/Tag/Coffee/g
+````
+
+## How to see how many tags left
+
+In this case we discover two tags
+
+Coffeess and Coffee
+
+You can see the number of missing tags with:
+
+````bash
+search=1' and count(/*[1]/*[1]/*)='5&submit=
+````
+
+In this case are 5 tags, (because we add an extra tag) if you only find 5 you have to check the xml file in the server
+
+But inside the next tag only exists five **tags**
+
+We can add this in own data.xml file
+![](../../Images/Pasted%20image%2020230904171725.png)
