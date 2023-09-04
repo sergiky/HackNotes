@@ -5,7 +5,6 @@ tags:
   - xpath
   - arp-scan
   - nmap
-  - sqli
 ---
 
 ![](../../Images/XVWA.png)
