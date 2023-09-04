@@ -32,3 +32,4 @@ You can find more exploiting way in [xvwa (XPath)](../../CTF/VulnHub/xvwa%20(XPa
 
 - https://www.vulnhub.com/entry/xtreme-vulnerable-web-application-xvwa-1,209/
 - https://book.hacktricks.xyz/pentesting-web/xpath-injection
+
