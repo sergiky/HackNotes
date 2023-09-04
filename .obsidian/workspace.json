@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CTF/VulnHub/xvwa (XPath).md",
+                "file": "OWASP TOP 10 and web vulnerabilities/XPath Injections/XPath Injection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CTF/VulnHub/xvwa (XPath).md",
+                "file": "OWASP TOP 10 and web vulnerabilities/XPath Injections/XPath Injection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CTF/VulnHub/xvwa (XPath).md"
+                "file": "OWASP TOP 10 and web vulnerabilities/XPath Injections/XPath Injection.md"
               }
             }
           },
@@ -166,21 +167,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7acfa1069af734bd",
+  "active": "6bcf0c0ea05f496b",
   "lastOpenFiles": [
+    "CTF/VulnHub/xvwa (XPath).md",
+    "OWASP TOP 10 and web vulnerabilities/XPath Injections/XPath Injection.md",
     "Images/Pasted image 20230904174859.png",
     "Images/Pasted image 20230904171725.png",
     "Images/Pasted image 20230904163639.png",
     "Images/Pasted image 20230904140245.png",
     "Images/Pasted image 20230904140238.png",
-    "OWASP TOP 10 and web vulnerabilities/XPath Injections/XPath Injection.md",
-    "CTF/VulnHub/xvwa (XPath).md",
     "Images/Pasted image 20230902191847.png",
     "Images/Pasted image 20230902191121.png",
     "Images/Pasted image 20230902185542.png",
     "Images/Pasted image 20230902185334.png",
     "Images/Pasted image 20230902185242.png",
-    "Images/Pasted image 20230902184140.png",
     "CTF/HackTheBox/TimeLapse/TimeLapse.md",
     "CTF/VulnHub/Untitled",
     "OWASP TOP 10 and web vulnerabilities/XPath Injections",
