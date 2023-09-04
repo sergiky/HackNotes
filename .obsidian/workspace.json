@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "c5a5f39d799c370e",
+        "id": "9f1b11e7fb909a14",
         "type": "tabs",
         "children": [
           {
-            "id": "7acfa1069af734bd",
+            "id": "bf0b8f5ba0055196",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF/VulnHub/xvwa (XPath).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6bcf0c0ea05f496b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/XPath Injections/XPath Injection.md",
+                "file": "OWASP TOP 10 and web vulnerabilities/IDORs/IDORs.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/XPath Injections/XPath Injection.md",
+                "file": "OWASP TOP 10 and web vulnerabilities/IDORs/IDORs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/XPath Injections/XPath Injection.md",
+                "file": "OWASP TOP 10 and web vulnerabilities/IDORs/IDORs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/XPath Injections/XPath Injection.md"
+                "file": "OWASP TOP 10 and web vulnerabilities/IDORs/IDORs.md"
               }
             }
           },
@@ -167,10 +154,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6bcf0c0ea05f496b",
+  "active": "bf0b8f5ba0055196",
   "lastOpenFiles": [
-    "CTF/VulnHub/xvwa (XPath).md",
+    "OWASP TOP 10 and web vulnerabilities/IDORs/IDORs.md",
+    "OWASP TOP 10 and web vulnerabilities/IDORs",
     "OWASP TOP 10 and web vulnerabilities/XPath Injections/XPath Injection.md",
+    "CTF/VulnHub/xvwa (XPath).md",
     "Images/Pasted image 20230904174859.png",
     "Images/Pasted image 20230904171725.png",
     "Images/Pasted image 20230904163639.png",
@@ -209,7 +198,6 @@
     "Tools/Enumeration/Ffuf.md",
     "Tools/cadaver.md",
     "Tools/davtest.md",
-    "OWASP TOP 10 and web vulnerabilities/WebDAV",
     "OWASP TOP 10 and web vulnerabilities/Open Redirect/Open Redirect.md",
     "Tools/Nvim.md",
     "OWASP TOP 10 and web vulnerabilities/AXFR attack - Full Zone Transfer/AXFR attack - Full Zone Transfer.md",
