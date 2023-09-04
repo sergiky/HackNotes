@@ -17,6 +17,7 @@ If you look up in the URL, you can see that the id is indicate them, if you try 
 
 > http://192.168.1.70/xvwa/vulnerabilities/idor/?item=1
 
-# Exploiting 
+# Labs
 
-We are going to use [xvwa](../../CTF/VulnHub/xvwa.md) 
+- You can use [xvwa](../../CTF/VulnHub/xvwa.md)
+- You can use [skf-labs](https://github.com/blabla1337/skf-labs) (nodeJs/IDOR)
