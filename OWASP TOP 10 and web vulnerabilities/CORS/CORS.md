@@ -94,6 +94,18 @@ To resolve this, if you see the log in python server, you can see the resources:
 You can recreate that, create folders with mkdir, download the files (with wget) and put them in their correspondent folder 
 
 ---
+
+# Tips
+
+Imagine that the CORS policy is something like this:
+
+````bash
+*.dominio.com
+````
+
+You can create a domain like **f.domain.com** 
+
+---
 # Labs
 
 Build the image:
