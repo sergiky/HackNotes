@@ -8,7 +8,12 @@ tags:
 **Cross-Origin Resource Sharing**
 
 
+---
+
 # Labs
 
-> sudo docker pull blabla13377/owasp-skf-lab:cors
+> sudo docker pull blabla1337/owasp-skf-lab:cors
+
+
+
 
