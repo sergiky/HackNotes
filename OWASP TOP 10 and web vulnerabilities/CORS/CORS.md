@@ -52,6 +52,24 @@ We can put some domain that is under our control, or put localhost
 
 ![](../../Images/Pasted%20image%2020230905172850.png)
 
+The header `Access-Control-Allow-Credentials` --> Allow to do request that contain session cookie and more
+
+Now we are going to create a file named malicious.html
+
+````html
+
+````
+
+We are going to get all the source code of the website (that we can't see because we are not authenticated) an store in a variable
+
+`req.onload = reqListener` --> When the user go to our website, what we want to happen (reqListener is a function)
+
+`req.open .. true` --> Petition have to bee asynchronous (we wait that load all and do the petition)
+
+`req.withCredentials` --> This is because the user is authenticated and we need the session cookie
+
+`reqListener` --> In this function we want to display all that the user is viewing
+
 
 
 ---
