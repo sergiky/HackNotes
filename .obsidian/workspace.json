@@ -179,11 +179,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d59c3fb52362ec70",
+  "active": "0aa262ac8ce0805f",
   "lastOpenFiles": [
-    "OWASP TOP 10 and web vulnerabilities/SQL Truncation/SQL Truncation.md",
+    "Images/Pasted image 20230906002227.png",
+    "Images/Pasted image 20230906002150.png",
     "CTF/VulnHub/SickOS 1.1.md",
     "CTF/VulnHub/IA Tornado.md",
+    "OWASP TOP 10 and web vulnerabilities/SQL Truncation/SQL Truncation.md",
     "Images/Tornado 1.png",
     "Images/Tornado.png",
     "OWASP TOP 10 and web vulnerabilities/SQL Truncation/desktop.ini",
@@ -207,7 +209,6 @@
     "CTF/VulnHub/xvwa.md",
     "Images/Pasted image 20230904174859.png",
     "Images/Pasted image 20230904171725.png",
-    "Images/Pasted image 20230904163639.png",
     "CTF/HackTheBox/TimeLapse/TimeLapse.md",
     "OWASP TOP 10 and web vulnerabilities/ShellShock Attack/ShellShock Attack.md",
     "OWASP TOP 10 and web vulnerabilities/Enumeration and exploiting SQUID Proxies/Enumeration and exploiting SQUID Proxies.md",
