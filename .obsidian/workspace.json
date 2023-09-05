@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9f1b11e7fb909a14",
+        "id": "d95a11cf9bee4fed",
         "type": "tabs",
         "children": [
           {
-            "id": "bf0b8f5ba0055196",
+            "id": "0aa262ac8ce0805f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/IDORs/IDORs.md",
+                "file": "OWASP TOP 10 and web vulnerabilities/CORS/CORS.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/IDORs/IDORs.md",
+                "file": "OWASP TOP 10 and web vulnerabilities/CORS/CORS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/IDORs/IDORs.md",
+                "file": "OWASP TOP 10 and web vulnerabilities/CORS/CORS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/IDORs/IDORs.md"
+                "file": "OWASP TOP 10 and web vulnerabilities/CORS/CORS.md"
               }
             }
           },
@@ -154,10 +154,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bf0b8f5ba0055196",
+  "active": "0aa262ac8ce0805f",
   "lastOpenFiles": [
-    "Images/Pasted image 20230904192056.png",
     "OWASP TOP 10 and web vulnerabilities/IDORs/IDORs.md",
+    "OWASP TOP 10 and web vulnerabilities/CORS/CORS.md",
+    "OWASP TOP 10 and web vulnerabilities/CORS",
+    "Images/Pasted image 20230904192056.png",
     "OWASP TOP 10 and web vulnerabilities/IDORs",
     "OWASP TOP 10 and web vulnerabilities/XPath Injections/XPath Injection.md",
     "CTF/VulnHub/xvwa.md",
@@ -170,7 +172,6 @@
     "Images/Pasted image 20230902191121.png",
     "Images/Pasted image 20230902185542.png",
     "Images/Pasted image 20230902185334.png",
-    "Images/Pasted image 20230902185242.png",
     "CTF/HackTheBox/TimeLapse/TimeLapse.md",
     "CTF/VulnHub/Untitled",
     "OWASP TOP 10 and web vulnerabilities/XPath Injections",
@@ -190,7 +191,6 @@
     "OWASP TOP 10 and web vulnerabilities/Deserialization attack/Deserialization attack.md",
     "OWASP TOP 10 and web vulnerabilities/Padding Oracle Attack/Padding Oracle Attack.md",
     "CTF/VulnHub",
-    "OWASP TOP 10 and web vulnerabilities/Enumeration and exploiting SQUID Proxies",
     "OWASP TOP 10 and web vulnerabilities/LaTex Injection/LaTeX Injection.md",
     "OWASP TOP 10 and web vulnerabilities/APIs abuse/APIs abuse.md",
     "OWASP TOP 10 and web vulnerabilities/Prototype Pollution Attack/Prototype Pollution Attack.md",
