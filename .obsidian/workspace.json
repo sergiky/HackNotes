@@ -8,18 +8,43 @@
         "type": "tabs",
         "children": [
           {
+            "id": "512c1a77f579c77d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OWASP TOP 10 and web vulnerabilities/SQL Truncation/SQL Truncation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "0aa262ac8ce0805f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF/VulnHub/Tornado.md",
+                "file": "CTF/VulnHub/IA Tornado.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d1c21f41344df2e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CTF/VulnHub/SickOS 1.1.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CTF/VulnHub/Tornado.md",
+                "file": "CTF/VulnHub/IA Tornado.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CTF/VulnHub/Tornado.md",
+                "file": "CTF/VulnHub/IA Tornado.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CTF/VulnHub/Tornado.md"
+                "file": "CTF/VulnHub/IA Tornado.md"
               }
             }
           },
@@ -154,12 +179,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0aa262ac8ce0805f",
+  "active": "d59c3fb52362ec70",
   "lastOpenFiles": [
+    "OWASP TOP 10 and web vulnerabilities/SQL Truncation/SQL Truncation.md",
+    "CTF/VulnHub/SickOS 1.1.md",
+    "CTF/VulnHub/IA Tornado.md",
     "Images/Tornado 1.png",
     "Images/Tornado.png",
-    "OWASP TOP 10 and web vulnerabilities/SQL Truncation/SQL Truncation.md",
-    "CTF/VulnHub/Tornado.md",
     "OWASP TOP 10 and web vulnerabilities/SQL Truncation/desktop.ini",
     "OWASP TOP 10 and web vulnerabilities/CORS/CORS.md",
     "OWASP TOP 10 and web vulnerabilities/SQL Truncation",
@@ -182,14 +208,12 @@
     "Images/Pasted image 20230904174859.png",
     "Images/Pasted image 20230904171725.png",
     "Images/Pasted image 20230904163639.png",
-    "Images/Pasted image 20230904140245.png",
     "CTF/HackTheBox/TimeLapse/TimeLapse.md",
     "OWASP TOP 10 and web vulnerabilities/ShellShock Attack/ShellShock Attack.md",
     "OWASP TOP 10 and web vulnerabilities/Enumeration and exploiting SQUID Proxies/Enumeration and exploiting SQUID Proxies.md",
     "OWASP TOP 10 and web vulnerabilities/Mass Assignment Attack - parameter binding/Mass Assignment Attack - parameter binding.md",
     "OWASP TOP 10 and web vulnerabilities/Mass Assignment Attack/Mass Assignment Attack.md",
     "Tools/Enumeration/Enumeration Services and some tips/HTTPS.md",
-    "CTF/VulnHub/SickOS 1.1.md",
     "OWASP TOP 10 and web vulnerabilities/WebDAV/WebDAV.md",
     "Utils/S4vitaar/ExtractPorts/ExtractPorts.md",
     "OWASP TOP 10 and web vulnerabilities/Deserialization attack/Deserialization attack.md",

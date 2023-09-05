@@ -20,6 +20,9 @@ admin@admin[space][space]
 
 What happens with the spaces? The spaces are not consider like value information, then truncate them (delete the spaces), after this you should be able to change the password of the "new user"
 
+# Exploiting
+
+We are going to use [IA Tornado](../../CTF/VulnHub/IA%20Tornado.md) 
 
 # Labs
 
