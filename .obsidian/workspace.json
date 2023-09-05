@@ -156,6 +156,9 @@
   },
   "active": "0aa262ac8ce0805f",
   "lastOpenFiles": [
+    "Images/Pasted image 20230905172850.png",
+    "Images/Pasted image 20230905172517.png",
+    "Images/Pasted image 20230905172127.png",
     "OWASP TOP 10 and web vulnerabilities/IDORs/IDORs.md",
     "OWASP TOP 10 and web vulnerabilities/CORS/CORS.md",
     "OWASP TOP 10 and web vulnerabilities/CORS",
@@ -170,8 +173,6 @@
     "Images/Pasted image 20230904140238.png",
     "Images/Pasted image 20230902191847.png",
     "Images/Pasted image 20230902191121.png",
-    "Images/Pasted image 20230902185542.png",
-    "Images/Pasted image 20230902185334.png",
     "CTF/HackTheBox/TimeLapse/TimeLapse.md",
     "CTF/VulnHub/Untitled",
     "OWASP TOP 10 and web vulnerabilities/XPath Injections",
@@ -201,7 +202,6 @@
     "Tools/davtest.md",
     "OWASP TOP 10 and web vulnerabilities/Open Redirect/Open Redirect.md",
     "Tools/Nvim.md",
-    "OWASP TOP 10 and web vulnerabilities/AXFR attack - Full Zone Transfer/AXFR attack - Full Zone Transfer.md",
     "Untitled.canvas"
   ]
 }

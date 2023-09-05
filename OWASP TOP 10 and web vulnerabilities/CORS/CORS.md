@@ -19,6 +19,39 @@ The policy of CORS define **the third-party domains** that can realize request t
 
 # Exploiting
 
+We are going to create a malicious page that have an script that allow to see all the content that the user is viewing, this is possible because the CORS is bad configured
+
+## Intercept the request with burpsuite
+
+The credential are admin:admin
+
+![](../../Images/Pasted%20image%2020230905172127.png)
+
+
+Intercept this with Burpsuite and send to Repeater, in the repeater send the request and in the response we can see the following headers:
+````java
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+````
+
+We can introduce a header in our request:
+
+````bash
+Origin: https.//test.com
+````
+
+Send the request and see if in the header Access-Control-Allow-Origin put the URL that indicate
+
+![](../../Images/Pasted%20image%2020230905172517.png)
+
+This allow to that domain to do requests.
+
+This is a big failure, now as a malicious attacker I can control this
+
+We can put some domain that is under our control, or put localhost
+
+![](../../Images/Pasted%20image%2020230905172850.png)
+
 
 
 ---
