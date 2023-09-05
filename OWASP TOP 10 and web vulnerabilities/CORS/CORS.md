@@ -105,6 +105,8 @@ Imagine that the CORS policy is something like this:
 
 You can create a domain like **f.domain.com** 
 
+- Sometime you don't see the header `Access-Control-Allow-Origin` but if you put a Origin in the request with some domain or subdomain that are authorize, this is valid form to enumerate them. You can fuzzing this header.
+
 ---
 # Labs
 

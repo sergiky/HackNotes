@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/CORS/CORS.md",
+                "file": "OWASP TOP 10 and web vulnerabilities/SQL Truncation/SQL Truncation.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/CORS/CORS.md",
+                "file": "OWASP TOP 10 and web vulnerabilities/SQL Truncation/SQL Truncation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/CORS/CORS.md",
+                "file": "OWASP TOP 10 and web vulnerabilities/SQL Truncation/SQL Truncation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/CORS/CORS.md"
+                "file": "OWASP TOP 10 and web vulnerabilities/SQL Truncation/SQL Truncation.md"
               }
             }
           },
@@ -156,6 +156,10 @@
   },
   "active": "0aa262ac8ce0805f",
   "lastOpenFiles": [
+    "OWASP TOP 10 and web vulnerabilities/SQL Truncation/desktop.ini",
+    "OWASP TOP 10 and web vulnerabilities/CORS/CORS.md",
+    "OWASP TOP 10 and web vulnerabilities/SQL Truncation/SQL Truncation.md",
+    "OWASP TOP 10 and web vulnerabilities/SQL Truncation",
     "Images/Pasted image 20230905231139.png",
     "OWASP TOP 10 and web vulnerabilities/CORS/desktop.ini",
     "OWASP TOP 10 and web vulnerabilities/XPath Injections/desktop.ini",
@@ -166,12 +170,10 @@
     "Content manager/Magento/desktop.ini",
     "Content manager/Joomla/desktop.ini",
     "Content manager/Drupal/desktop.ini",
-    "Content manager/Wordpress/desktop.ini",
     "Images/Pasted image 20230905172850.png",
     "Images/Pasted image 20230905172517.png",
     "Images/Pasted image 20230905172127.png",
     "OWASP TOP 10 and web vulnerabilities/IDORs/IDORs.md",
-    "OWASP TOP 10 and web vulnerabilities/CORS/CORS.md",
     "Images/Pasted image 20230904192056.png",
     "OWASP TOP 10 and web vulnerabilities/XPath Injections/XPath Injection.md",
     "CTF/VulnHub/xvwa.md",
@@ -180,7 +182,6 @@
     "Images/Pasted image 20230904163639.png",
     "Images/Pasted image 20230904140245.png",
     "Images/Pasted image 20230904140238.png",
-    "Images/Pasted image 20230902191847.png",
     "CTF/HackTheBox/TimeLapse/TimeLapse.md",
     "OWASP TOP 10 and web vulnerabilities/ShellShock Attack/ShellShock Attack.md",
     "OWASP TOP 10 and web vulnerabilities/Enumeration and exploiting SQUID Proxies/Enumeration and exploiting SQUID Proxies.md",
@@ -201,7 +202,6 @@
     "Tools/cadaver.md",
     "Tools/davtest.md",
     "OWASP TOP 10 and web vulnerabilities/Open Redirect/Open Redirect.md",
-    "Tools/Nvim.md",
     "Untitled.canvas"
   ]
 }
