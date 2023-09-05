@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CTF/VulnHub/IA Tornado.md",
+                "file": "OWASP TOP 10 and web vulnerabilities/SQL Truncation/SQL Truncation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CTF/VulnHub/IA Tornado.md",
+                "file": "OWASP TOP 10 and web vulnerabilities/SQL Truncation/SQL Truncation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CTF/VulnHub/IA Tornado.md"
+                "file": "OWASP TOP 10 and web vulnerabilities/SQL Truncation/SQL Truncation.md"
               }
             }
           },
@@ -179,13 +178,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0aa262ac8ce0805f",
+  "active": "512c1a77f579c77d",
   "lastOpenFiles": [
+    "CTF/VulnHub/IA Tornado.md",
+    "OWASP TOP 10 and web vulnerabilities/SQL Truncation/SQL Truncation.md",
+    "Images/Pasted image 20230906011351.png",
+    "Images/Pasted image 20230906002523.png",
     "Images/Pasted image 20230906002227.png",
     "Images/Pasted image 20230906002150.png",
     "CTF/VulnHub/SickOS 1.1.md",
-    "CTF/VulnHub/IA Tornado.md",
-    "OWASP TOP 10 and web vulnerabilities/SQL Truncation/SQL Truncation.md",
     "Images/Tornado 1.png",
     "Images/Tornado.png",
     "OWASP TOP 10 and web vulnerabilities/SQL Truncation/desktop.ini",
@@ -204,11 +205,8 @@
     "Images/Pasted image 20230905172517.png",
     "Images/Pasted image 20230905172127.png",
     "OWASP TOP 10 and web vulnerabilities/IDORs/IDORs.md",
-    "Images/Pasted image 20230904192056.png",
     "OWASP TOP 10 and web vulnerabilities/XPath Injections/XPath Injection.md",
     "CTF/VulnHub/xvwa.md",
-    "Images/Pasted image 20230904174859.png",
-    "Images/Pasted image 20230904171725.png",
     "CTF/HackTheBox/TimeLapse/TimeLapse.md",
     "OWASP TOP 10 and web vulnerabilities/ShellShock Attack/ShellShock Attack.md",
     "OWASP TOP 10 and web vulnerabilities/Enumeration and exploiting SQUID Proxies/Enumeration and exploiting SQUID Proxies.md",

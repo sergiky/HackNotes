@@ -4,6 +4,12 @@ tags:
   - "#sqltruncation"
   - sql
 ---
+# IMPORTANT
+
+I can't finish the class because the machine don't allow to me to change the name of network adapter
+
+![](../../Images/Pasted%20image%2020230906011351.png)
+
 # What is SQL Truncation?
 
 Imagine that you a register form in a website and you put a email that is already in use, if the max of character is not reachable you can add something like that:
@@ -23,6 +29,8 @@ What happens with the spaces? The spaces are not consider like value information
 # Exploiting
 
 We are going to use [IA Tornado](../../CTF/VulnHub/IA%20Tornado.md) 
+
+
 
 # Labs
 
