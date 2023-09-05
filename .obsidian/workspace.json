@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/SQL Truncation/SQL Truncation.md",
+                "file": "CTF/VulnHub/Tornado.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/SQL Truncation/SQL Truncation.md",
+                "file": "CTF/VulnHub/Tornado.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/SQL Truncation/SQL Truncation.md",
+                "file": "CTF/VulnHub/Tornado.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/SQL Truncation/SQL Truncation.md"
+                "file": "CTF/VulnHub/Tornado.md"
               }
             }
           },
@@ -156,9 +156,12 @@
   },
   "active": "0aa262ac8ce0805f",
   "lastOpenFiles": [
+    "Images/Tornado 1.png",
+    "Images/Tornado.png",
+    "OWASP TOP 10 and web vulnerabilities/SQL Truncation/SQL Truncation.md",
+    "CTF/VulnHub/Tornado.md",
     "OWASP TOP 10 and web vulnerabilities/SQL Truncation/desktop.ini",
     "OWASP TOP 10 and web vulnerabilities/CORS/CORS.md",
-    "OWASP TOP 10 and web vulnerabilities/SQL Truncation/SQL Truncation.md",
     "OWASP TOP 10 and web vulnerabilities/SQL Truncation",
     "Images/Pasted image 20230905231139.png",
     "OWASP TOP 10 and web vulnerabilities/CORS/desktop.ini",
@@ -169,7 +172,6 @@
     "Tools/Active Directory/Crackmapexec/desktop.ini",
     "Content manager/Magento/desktop.ini",
     "Content manager/Joomla/desktop.ini",
-    "Content manager/Drupal/desktop.ini",
     "Images/Pasted image 20230905172850.png",
     "Images/Pasted image 20230905172517.png",
     "Images/Pasted image 20230905172127.png",
@@ -181,7 +183,6 @@
     "Images/Pasted image 20230904171725.png",
     "Images/Pasted image 20230904163639.png",
     "Images/Pasted image 20230904140245.png",
-    "Images/Pasted image 20230904140238.png",
     "CTF/HackTheBox/TimeLapse/TimeLapse.md",
     "OWASP TOP 10 and web vulnerabilities/ShellShock Attack/ShellShock Attack.md",
     "OWASP TOP 10 and web vulnerabilities/Enumeration and exploiting SQUID Proxies/Enumeration and exploiting SQUID Proxies.md",
@@ -201,7 +202,6 @@
     "Tools/Enumeration/Ffuf.md",
     "Tools/cadaver.md",
     "Tools/davtest.md",
-    "OWASP TOP 10 and web vulnerabilities/Open Redirect/Open Redirect.md",
     "Untitled.canvas"
   ]
 }
