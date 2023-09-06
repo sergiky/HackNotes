@@ -61,12 +61,41 @@ If you change the ID and put 2 in place of 1 you see other response:
 ![](../../Images/Pasted%20image%2020230906223115.png)
 ![](../../Images/Pasted%20image%2020230906223121.png)
 
+---
+
+# GraphQL Introspection
+
+Change the lab
+
+![](../../Images/Pasted%20image%2020230906223747.png)
+
+If you intercept the request you will see that the server are sending a request to GraphQL to obtain the data that will post on the main page
+
+![](../../Images/Pasted%20image%2020230906223947.png)
+![](../../Images/Pasted%20image%2020230906223952.png)
+
+In this case we are going to open 
+
+> http://localhost:5000/graphql 
+
+
+Now we go to the bible [hacktricks](https://book.hacktricks.xyz/network-services-pentesting/pentesting-web/graphql) 
+
 
 ---
 
 # Labs
 
+## GraphQL IDOR
+
 - skf-labs/nodeJs/Graphql-IDOR/
+
+`npm install --force`
+`npm start`
+
+## GraphQL-Introspection
+
+- skf-labs/nodeJs/Graphql-Introspection/
 
 `npm install --force`
 `npm start`
