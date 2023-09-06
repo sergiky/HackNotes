@@ -129,7 +129,65 @@ You have to wait and you can see the result:
 
 ![](../../Images/Pasted%20image%2020230906182544.png)
 
+What means this?
 
+That means that you can use a [Reverse shells](../../Shells/Reverse%20shell/Reverse%20shells.md) and gain access to the victim machine, this is vulnerable to a **command injection**
+
+---
+
+# Race condition file write
+
+We are going to the other folder and realize npm install and start
+
+![](../../Images/Pasted%20image%2020230906183234.png)
+
+This is the same
+
+In this case if you put some parameter in the url you obtain a file
+
+> http://localhost:5000/test
+
+If you look the app.js
+
+![](../../Images/Pasted%20image%2020230906183448.png)
+
+You can see that there are some spaces begin write the file and give you (that are time loss)
+
+Imagine that two user at the same time append information in the document shared-file.txt and when they present (upload) the file you can see the content of the other person 
+
+Imagine that other user is sending the data (you can emulate other user with Burpsuite)
+
+````bash
+while true; do curl -s -X GET "http://localhost:5000/hello"; done
+````
+
+You see the response that is:
+
+![](../../Images/Pasted%20image%2020230906184127.png)
+
+You can put an echo to see better
+
+````bash
+while true; do curl -s -X GET "http://localhost:5000/hello"; echo; done
+````
+
+Now we are going to remove all the output that contain hello
+
+````bash
+while true; do curl -s -X GET "http://localhost:5000/hello" | grep -v "hello"; done
+````
+
+If we go to Burpsuite (other user) and send the request with **Repeater**, while this loop is running, at some point can see the data of the other client
+
+![](../../Images/Pasted%20image%2020230906184743.png)
+
+But to obtain in this case the data of the client (Burpsuite) the length of the client must be bigger than the data of the attacker (in the terminal)
+
+And you can see the data of the client that is **asdasd** in our terminal if you send many times the request
+
+![](../../Images/Pasted%20image%2020230906185115.png)
+
+Not always work the first time that you send the request
 
 ---
 
