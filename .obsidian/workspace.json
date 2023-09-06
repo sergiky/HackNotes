@@ -13,31 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/SQL Truncation/SQL Truncation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0aa262ac8ce0805f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CTF/VulnHub/IA Tornado.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d1c21f41344df2e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CTF/VulnHub/SickOS 1.1.md",
+                "file": "OWASP TOP 10 and web vulnerabilities/Session Puzzling - Session Fixation - Session Variable Overloading/Session Puzzling - Session Fixation - Session Variable Overloading.md",
                 "mode": "source",
                 "source": false
               }
@@ -72,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "idor",
+                "query": "tag:sessionPuzzling",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -109,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/SQL Truncation/SQL Truncation.md",
+                "file": "OWASP TOP 10 and web vulnerabilities/Session Puzzling - Session Fixation - Session Variable Overloading/Session Puzzling - Session Fixation - Session Variable Overloading.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/SQL Truncation/SQL Truncation.md",
+                "file": "OWASP TOP 10 and web vulnerabilities/Session Puzzling - Session Fixation - Session Variable Overloading/Session Puzzling - Session Fixation - Session Variable Overloading.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/SQL Truncation/SQL Truncation.md"
+                "file": "OWASP TOP 10 and web vulnerabilities/Session Puzzling - Session Fixation - Session Variable Overloading/Session Puzzling - Session Fixation - Session Variable Overloading.md"
               }
             }
           },
@@ -180,8 +157,12 @@
   },
   "active": "512c1a77f579c77d",
   "lastOpenFiles": [
-    "CTF/VulnHub/IA Tornado.md",
+    "Images/Pasted image 20230906130743.png",
+    "Images/Pasted image 20230906125624.png",
     "OWASP TOP 10 and web vulnerabilities/SQL Truncation/SQL Truncation.md",
+    "OWASP TOP 10 and web vulnerabilities/Session Puzzling - Session Fixation - Session Variable Overloading/Session Puzzling - Session Fixation - Session Variable Overloading.md",
+    "OWASP TOP 10 and web vulnerabilities/Session Puzzling - Session Fixation - Session Variable Overloading",
+    "CTF/VulnHub/IA Tornado.md",
     "Images/Pasted image 20230906011351.png",
     "Images/Pasted image 20230906002523.png",
     "Images/Pasted image 20230906002227.png",
@@ -200,10 +181,8 @@
     "Tools/Enumeration/Nmap/desktop.ini",
     "Tools/Active Directory/Crackmapexec/desktop.ini",
     "Content manager/Magento/desktop.ini",
-    "Content manager/Joomla/desktop.ini",
     "Images/Pasted image 20230905172850.png",
     "Images/Pasted image 20230905172517.png",
-    "Images/Pasted image 20230905172127.png",
     "OWASP TOP 10 and web vulnerabilities/IDORs/IDORs.md",
     "OWASP TOP 10 and web vulnerabilities/XPath Injections/XPath Injection.md",
     "CTF/VulnHub/xvwa.md",
@@ -224,7 +203,6 @@
     "Tools/Enumeration/Tools to enum subdomains.md",
     "Tools/Enumeration/Ffuf.md",
     "Tools/cadaver.md",
-    "Tools/davtest.md",
     "Untitled.canvas"
   ]
 }
