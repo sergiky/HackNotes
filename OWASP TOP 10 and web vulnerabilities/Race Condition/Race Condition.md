@@ -23,9 +23,11 @@ If you have some problema with `npm install` add a `--force`
 
 We are analyze the code of the website that is in **app.js** 
 
-And we can see that we can execute command thanks to this regex
+And we can see that we can't execute command thanks to this regex, but before execute the valid function, we can see that the file with our name (or malicious command) exists, but after is changed by the regex
 
 ![](../../Images/Pasted%20image%2020230906161006.png)
+
+In this piece of code exist a little margin when create the file `fs.writeFileSync`, then execute the file and apply the validation, if you go so fast to read the file, maybe you have time to see the result.
 
 
 
