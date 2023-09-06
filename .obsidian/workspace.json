@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4b56d15ffc2390a1",
+        "id": "c1b93ff13b76d948",
         "type": "tabs",
         "children": [
           {
-            "id": "bd768f80a0b16d66",
+            "id": "e8322546bf021e65",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/Deserealization YAML attack/Deserealization YAML attack.md",
+                "file": "OWASP TOP 10 and web vulnerabilities/Deserialization Pickle/Deserialization Pickle attack.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/Deserealization YAML attack/Deserealization YAML attack.md",
+                "file": "OWASP TOP 10 and web vulnerabilities/Deserialization Pickle/Deserialization Pickle attack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/Deserealization YAML attack/Deserealization YAML attack.md",
+                "file": "OWASP TOP 10 and web vulnerabilities/Deserialization Pickle/Deserialization Pickle attack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/Deserealization YAML attack/Deserealization YAML attack.md"
+                "file": "OWASP TOP 10 and web vulnerabilities/Deserialization Pickle/Deserialization Pickle attack.md"
               }
             }
           },
@@ -154,13 +154,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bd768f80a0b16d66",
+  "active": "e8322546bf021e65",
   "lastOpenFiles": [
+    "Images/Pasted image 20230906203747.png",
+    "Images/Pasted image 20230906202717.png",
+    "OWASP TOP 10 and web vulnerabilities/Deserealization YAML attack/Deserealization YAML attack.md",
+    "OWASP TOP 10 and web vulnerabilities/Deserialization Pickle/Deserialization Pickle attack.md",
+    "OWASP TOP 10 and web vulnerabilities/Deserialization attack/Deserialization attack.md",
+    "OWASP TOP 10 and web vulnerabilities/Deserialization Pickle",
     "Images/Pasted image 20230906195927.png",
     "Images/Pasted image 20230906193803.png",
     "Images/Pasted image 20230906193547.png",
     "Images/Pasted image 20230906193315.png",
-    "OWASP TOP 10 and web vulnerabilities/Deserealization YAML attack/Deserealization YAML attack.md",
     "OWASP TOP 10 and web vulnerabilities/Deserealization YAML attack",
     "OWASP TOP 10 and web vulnerabilities/CSSI/CSSI.md",
     "Images/Pasted image 20230906191425.png",
@@ -170,8 +175,6 @@
     "OWASP TOP 10 and web vulnerabilities/CSSI",
     "Images/Pasted image 20230906185115.png",
     "Images/Pasted image 20230906184743.png",
-    "Images/Pasted image 20230906184127.png",
-    "Images/Pasted image 20230906183448.png",
     "OWASP TOP 10 and web vulnerabilities/Session Puzzling - Session Fixation - Session Variable Overloading/Session Puzzling - Session Fixation - Session Variable Overloading.md",
     "OWASP TOP 10 and web vulnerabilities/Enumerate and exploiting Json Web Tokens (JWT)/Enumerate and exploiting Json Web Tokens (JWT).md",
     "OWASP TOP 10 and web vulnerabilities/Race Condition",
@@ -185,7 +188,6 @@
     "OWASP TOP 10 and web vulnerabilities/SQL Truncation",
     "OWASP TOP 10 and web vulnerabilities/CORS/desktop.ini",
     "OWASP TOP 10 and web vulnerabilities/XPath Injections/desktop.ini",
-    "CTF/VulnHub/desktop.ini",
     "OWASP TOP 10 and web vulnerabilities/IDORs/IDORs.md",
     "OWASP TOP 10 and web vulnerabilities/XPath Injections/XPath Injection.md",
     "CTF/VulnHub/xvwa.md",
@@ -197,11 +199,9 @@
     "Tools/Enumeration/Enumeration Services and some tips/HTTPS.md",
     "OWASP TOP 10 and web vulnerabilities/WebDAV/WebDAV.md",
     "Utils/S4vitaar/ExtractPorts/ExtractPorts.md",
-    "OWASP TOP 10 and web vulnerabilities/Deserialization attack/Deserialization attack.md",
     "OWASP TOP 10 and web vulnerabilities/Padding Oracle Attack/Padding Oracle Attack.md",
     "OWASP TOP 10 and web vulnerabilities/LaTex Injection/LaTeX Injection.md",
     "OWASP TOP 10 and web vulnerabilities/APIs abuse/APIs abuse.md",
-    "OWASP TOP 10 and web vulnerabilities/Prototype Pollution Attack/Prototype Pollution Attack.md",
     "Untitled.canvas"
   ]
 }
