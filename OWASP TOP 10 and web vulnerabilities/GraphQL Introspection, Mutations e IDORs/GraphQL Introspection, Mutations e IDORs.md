@@ -249,6 +249,11 @@ If you intercept the request when click the button you can see the query
 
 ![](../../Images/Pasted%20image%2020230906231854.png)
 
+You can change this data
+![](../../Images/Pasted%20image%2020230906232017.png)
+
+![](../../Images/Pasted%20image%2020230906232032.png)
+
 
 
 ---
