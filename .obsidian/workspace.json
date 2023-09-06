@@ -156,6 +156,8 @@
   },
   "active": "75ed3a53fa2300c3",
   "lastOpenFiles": [
+    "Images/Pasted image 20230906133710.png",
+    "Images/jwt_ng1_en.png",
     "OWASP TOP 10 and web vulnerabilities/Enumerate and exploiting Json Web Tokens (JWT)/Enumerate and exploiting Json Web Tokens (JWT).md",
     "OWASP TOP 10 and web vulnerabilities/Session Puzzling - Session Fixation - Session Variable Overloading/Session Puzzling - Session Fixation - Session Variable Overloading.md",
     "OWASP TOP 10 and web vulnerabilities/Enumerate and exploiting Json Web Tokens (JWT)",
@@ -171,7 +173,6 @@
     "Images/Pasted image 20230906011351.png",
     "Images/Pasted image 20230906002523.png",
     "Images/Pasted image 20230906002227.png",
-    "Images/Pasted image 20230906002150.png",
     "CTF/VulnHub/SickOS 1.1.md",
     "OWASP TOP 10 and web vulnerabilities/SQL Truncation/desktop.ini",
     "OWASP TOP 10 and web vulnerabilities/CORS/CORS.md",
@@ -201,7 +202,6 @@
     "Tools/Enumeration/Wfuzz.md",
     "Tools/Enumeration/Tools to enum subdomains.md",
     "Tools/Enumeration/Ffuf.md",
-    "Tools/cadaver.md",
     "Untitled.canvas"
   ]
 }
