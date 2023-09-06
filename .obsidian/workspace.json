@@ -154,10 +154,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3727a671adc3428d",
+  "active": "e8322546bf021e65",
   "lastOpenFiles": [
-    "OWASP TOP 10 and web vulnerabilities/Deserialization Pickle/Deserialization Pickle attack.md",
+    "OWASP TOP 10 and web vulnerabilities/XSS/XSS.md",
     "OWASP TOP 10 and web vulnerabilities/GraphQL Introspection, Mutations e IDORs/GraphQL Introspection, Mutations e IDORs.md",
+    "OWASP TOP 10 and web vulnerabilities/CSRF/CSRF or XSRF.md",
+    "OWASP TOP 10 and web vulnerabilities/Deserialization Pickle/Deserialization Pickle attack.md",
     "OWASP TOP 10 and web vulnerabilities/GraphQL Introspection, Mutations e IDORs",
     "Images/Pasted image 20230906210558.png",
     "Images/Pasted image 20230906210103.png",
@@ -200,8 +202,6 @@
     "OWASP TOP 10 and web vulnerabilities/WebDAV/WebDAV.md",
     "Utils/S4vitaar/ExtractPorts/ExtractPorts.md",
     "OWASP TOP 10 and web vulnerabilities/Padding Oracle Attack/Padding Oracle Attack.md",
-    "OWASP TOP 10 and web vulnerabilities/LaTex Injection/LaTeX Injection.md",
-    "OWASP TOP 10 and web vulnerabilities/APIs abuse/APIs abuse.md",
     "Untitled.canvas"
   ]
 }
