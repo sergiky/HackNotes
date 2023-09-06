@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/Enumerate and exploiting Json Web Tokens (JWT)/Enumerate and exploiting Json Web Tokens (JWT).md",
+                "file": "OWASP TOP 10 and web vulnerabilities/Race Condition/Race Condition.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/Enumerate and exploiting Json Web Tokens (JWT)/Enumerate and exploiting Json Web Tokens (JWT).md",
+                "file": "OWASP TOP 10 and web vulnerabilities/Race Condition/Race Condition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/Enumerate and exploiting Json Web Tokens (JWT)/Enumerate and exploiting Json Web Tokens (JWT).md",
+                "file": "OWASP TOP 10 and web vulnerabilities/Race Condition/Race Condition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/Enumerate and exploiting Json Web Tokens (JWT)/Enumerate and exploiting Json Web Tokens (JWT).md"
+                "file": "OWASP TOP 10 and web vulnerabilities/Race Condition/Race Condition.md"
               }
             }
           },
@@ -156,6 +156,10 @@
   },
   "active": "75ed3a53fa2300c3",
   "lastOpenFiles": [
+    "OWASP TOP 10 and web vulnerabilities/Session Puzzling - Session Fixation - Session Variable Overloading/Session Puzzling - Session Fixation - Session Variable Overloading.md",
+    "OWASP TOP 10 and web vulnerabilities/Race Condition/Race Condition.md",
+    "OWASP TOP 10 and web vulnerabilities/Enumerate and exploiting Json Web Tokens (JWT)/Enumerate and exploiting Json Web Tokens (JWT).md",
+    "OWASP TOP 10 and web vulnerabilities/Race Condition",
     "Images/Pasted image 20230906141752.png",
     "Images/Pasted image 20230906141615.png",
     "Images/Pasted image 20230906141506.png",
@@ -166,9 +170,6 @@
     "Images/Pasted image 20230906135333.png",
     "Images/Pasted image 20230906135205.png",
     "Images/Pasted image 20230906133710.png",
-    "Images/jwt_ng1_en.png",
-    "OWASP TOP 10 and web vulnerabilities/Enumerate and exploiting Json Web Tokens (JWT)/Enumerate and exploiting Json Web Tokens (JWT).md",
-    "OWASP TOP 10 and web vulnerabilities/Session Puzzling - Session Fixation - Session Variable Overloading/Session Puzzling - Session Fixation - Session Variable Overloading.md",
     "OWASP TOP 10 and web vulnerabilities/Enumerate and exploiting Json Web Tokens (JWT)",
     "OWASP TOP 10 and web vulnerabilities/SQL Truncation/SQL Truncation.md",
     "OWASP TOP 10 and web vulnerabilities/Session Puzzling - Session Fixation - Session Variable Overloading",
@@ -182,7 +183,6 @@
     "CTF/VulnHub/desktop.ini",
     "OWASP TOP 10 and web vulnerabilities/Mass Assignment Attack - parameter binding/desktop.ini",
     "Tools/Enumeration/Nmap/desktop.ini",
-    "Tools/Active Directory/Crackmapexec/desktop.ini",
     "OWASP TOP 10 and web vulnerabilities/IDORs/IDORs.md",
     "OWASP TOP 10 and web vulnerabilities/XPath Injections/XPath Injection.md",
     "CTF/VulnHub/xvwa.md",
