@@ -190,6 +190,11 @@ And you can see the data of the client that is **asdasd** in our terminal if you
 Not always work the first time that you send the request
 
 ---
+# Remember
+
+For race condition always a lot of request to the server to take the request that are interested
+
+---
 
 # Labs
 
