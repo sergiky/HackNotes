@@ -225,6 +225,21 @@ Click Display button and you see the schema
 
 ![](../../Images/Pasted%20image%2020230906230206.png)
 
+Now if you go again to Burpsuite you can indicate what type of information do you want
+
+Request:
+![](../../Images/Pasted%20image%2020230906230926.png)
+
+Response:
+![](../../Images/Pasted%20image%2020230906230931.png)
+
+We can't write or modified nothing, **only read**
+
+---
+
+# GraphQL-Mutations
+
+
 
 ---
 
