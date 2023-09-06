@@ -78,8 +78,25 @@ In this case we are going to open
 
 > http://localhost:5000/graphql 
 
+And we are going to execute the query here, if you go to the bible [hacktricks](https://book.hacktricks.xyz/network-services-pentesting/pentesting-web/graphql) you can see this query that is used to **discover schema information**
 
-Now we go to the bible [hacktricks](https://book.hacktricks.xyz/network-services-pentesting/pentesting-web/graphql) 
+Introspection is the capacity of describe the content of their own schema
+
+````bash
+query={__schema{types{name,fields{name}}}}
+````
+
+This is used in a URL in our case, we have this type of interactive console and this param is put automatically, we can submit
+
+````bash
+{__schema{types{name,fields{name}}}}
+````
+
+If you want to see this a little more beautiful you can use Prettify button
+
+![](../../Images/Pasted%20image%2020230906224533.png)
+
+![](../../Images/Pasted%20image%2020230906224604.png)
 
 
 ---
