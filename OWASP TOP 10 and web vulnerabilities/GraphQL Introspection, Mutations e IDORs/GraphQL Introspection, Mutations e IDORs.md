@@ -233,11 +233,21 @@ Request:
 Response:
 ![](../../Images/Pasted%20image%2020230906230931.png)
 
-We can't write or modified nothing, **only read**
+We can't write or modified nothing, **only read** to do this we need mutations
 
 ---
 
 # GraphQL-Mutations
+
+This is a type of operation that is used to **modified or changed** the data of the server
+
+![](../../Images/Pasted%20image%2020230906231730.png)
+
+You can create a new post clicking the button 
+
+If you intercept the request when click the button you can see the query
+
+![](../../Images/Pasted%20image%2020230906231854.png)
 
 
 
@@ -263,6 +273,13 @@ We are going to use [graphql-voyager](https://github.com/graphql-kit/graphql-voy
 ## GraphQL-Introspection
 
 - skf-labs/nodeJs/Graphql-Introspection/
+
+`npm install --force`
+`npm start`
+
+## GraphQL-Mutations
+
+- skf-labs/nodeJs/Graphql-Mutations/
 
 `npm install --force`
 `npm start`
