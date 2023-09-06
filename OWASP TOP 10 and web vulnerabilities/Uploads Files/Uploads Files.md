@@ -26,7 +26,7 @@ When you open the url where is the image you can use the parameter cmd to inject
 
 Only admit files with extensions: .jpg, .jpeg, .bmp, gif, png
 
-When we see some type of validiation we have to check if it is client side or server side (or both)
+When we see some type of validation we have to check if it is client side or server side (or both)
 
 If we check the source code, we can see an script named **validate.js**
 
