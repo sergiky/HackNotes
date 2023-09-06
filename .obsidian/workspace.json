@@ -156,8 +156,10 @@
   },
   "active": "e8322546bf021e65",
   "lastOpenFiles": [
-    "OWASP TOP 10 and web vulnerabilities/XSS/XSS.md",
+    "Images/Pasted image 20230906221959.png",
+    "OWASP TOP 10 and web vulnerabilities/IDORs/IDORs.md",
     "OWASP TOP 10 and web vulnerabilities/GraphQL Introspection, Mutations e IDORs/GraphQL Introspection, Mutations e IDORs.md",
+    "OWASP TOP 10 and web vulnerabilities/XSS/XSS.md",
     "OWASP TOP 10 and web vulnerabilities/CSRF/CSRF or XSRF.md",
     "OWASP TOP 10 and web vulnerabilities/Deserialization Pickle/Deserialization Pickle attack.md",
     "OWASP TOP 10 and web vulnerabilities/GraphQL Introspection, Mutations e IDORs",
@@ -190,7 +192,6 @@
     "OWASP TOP 10 and web vulnerabilities/CORS/CORS.md",
     "OWASP TOP 10 and web vulnerabilities/SQL Truncation",
     "OWASP TOP 10 and web vulnerabilities/CORS/desktop.ini",
-    "OWASP TOP 10 and web vulnerabilities/IDORs/IDORs.md",
     "OWASP TOP 10 and web vulnerabilities/XPath Injections/XPath Injection.md",
     "CTF/VulnHub/xvwa.md",
     "CTF/HackTheBox/TimeLapse/TimeLapse.md",
@@ -201,7 +202,6 @@
     "Tools/Enumeration/Enumeration Services and some tips/HTTPS.md",
     "OWASP TOP 10 and web vulnerabilities/WebDAV/WebDAV.md",
     "Utils/S4vitaar/ExtractPorts/ExtractPorts.md",
-    "OWASP TOP 10 and web vulnerabilities/Padding Oracle Attack/Padding Oracle Attack.md",
     "Untitled.canvas"
   ]
 }
