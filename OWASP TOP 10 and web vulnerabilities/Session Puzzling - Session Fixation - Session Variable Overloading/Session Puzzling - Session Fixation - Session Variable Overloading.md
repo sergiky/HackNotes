@@ -45,7 +45,23 @@ In the login, you can click in **Forgot Password**?
 
 ![](../../Images/Pasted%20image%2020230906130743.png)
 
-And intercept this with Burpsuite
+
+![](../../Images/Pasted%20image%2020230906131128.png)
+
+Now we are going to use Burpsuite and intercept this, send to repeater.
+
+You can see a Cookie-Session in the response:
+
+![](../../Images/Pasted%20image%2020230906131554.png)
+
+If we [jwt.io] we can see that is the same, they give as the session cookie, now if you change the URL and put **dashboard** you can see the content
+
+> http://localhost:5000/dashboard
+
+This is because we have the **Set-Cookie**
+
+![](../../Images/Pasted%20image%2020230906131759.png)
+
 
 ---
 
