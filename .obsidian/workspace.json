@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/Deserialization Pickle/Deserialization Pickle attack.md",
+                "file": "OWASP TOP 10 and web vulnerabilities/GraphQL Introspection, Mutations e IDORs/GraphQL Introspection, Mutations e IDORs.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/Deserialization Pickle/Deserialization Pickle attack.md",
+                "file": "OWASP TOP 10 and web vulnerabilities/GraphQL Introspection, Mutations e IDORs/GraphQL Introspection, Mutations e IDORs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/Deserialization Pickle/Deserialization Pickle attack.md",
+                "file": "OWASP TOP 10 and web vulnerabilities/GraphQL Introspection, Mutations e IDORs/GraphQL Introspection, Mutations e IDORs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/Deserialization Pickle/Deserialization Pickle attack.md"
+                "file": "OWASP TOP 10 and web vulnerabilities/GraphQL Introspection, Mutations e IDORs/GraphQL Introspection, Mutations e IDORs.md"
               }
             }
           },
@@ -154,8 +154,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e8322546bf021e65",
+  "active": "3727a671adc3428d",
   "lastOpenFiles": [
+    "OWASP TOP 10 and web vulnerabilities/Deserialization Pickle/Deserialization Pickle attack.md",
+    "OWASP TOP 10 and web vulnerabilities/GraphQL Introspection, Mutations e IDORs/GraphQL Introspection, Mutations e IDORs.md",
+    "OWASP TOP 10 and web vulnerabilities/GraphQL Introspection, Mutations e IDORs",
     "Images/Pasted image 20230906210558.png",
     "Images/Pasted image 20230906210103.png",
     "Images/Pasted image 20230906205952.png",
@@ -163,7 +166,6 @@
     "Images/Pasted image 20230906203747.png",
     "Images/Pasted image 20230906202717.png",
     "OWASP TOP 10 and web vulnerabilities/Deserealization YAML attack/Deserealization YAML attack.md",
-    "OWASP TOP 10 and web vulnerabilities/Deserialization Pickle/Deserialization Pickle attack.md",
     "OWASP TOP 10 and web vulnerabilities/Deserialization attack/Deserialization attack.md",
     "OWASP TOP 10 and web vulnerabilities/Deserialization Pickle",
     "Images/Pasted image 20230906195927.png",
@@ -172,7 +174,6 @@
     "Images/Pasted image 20230906193315.png",
     "OWASP TOP 10 and web vulnerabilities/Deserealization YAML attack",
     "OWASP TOP 10 and web vulnerabilities/CSSI/CSSI.md",
-    "Images/Pasted image 20230906191425.png",
     "OWASP TOP 10 and web vulnerabilities/Race Condition/Race Condition.md",
     "OWASP TOP 10 and web vulnerabilities/CSSI",
     "OWASP TOP 10 and web vulnerabilities/Session Puzzling - Session Fixation - Session Variable Overloading/Session Puzzling - Session Fixation - Session Variable Overloading.md",
@@ -187,7 +188,6 @@
     "OWASP TOP 10 and web vulnerabilities/CORS/CORS.md",
     "OWASP TOP 10 and web vulnerabilities/SQL Truncation",
     "OWASP TOP 10 and web vulnerabilities/CORS/desktop.ini",
-    "OWASP TOP 10 and web vulnerabilities/XPath Injections/desktop.ini",
     "OWASP TOP 10 and web vulnerabilities/IDORs/IDORs.md",
     "OWASP TOP 10 and web vulnerabilities/XPath Injections/XPath Injection.md",
     "CTF/VulnHub/xvwa.md",
