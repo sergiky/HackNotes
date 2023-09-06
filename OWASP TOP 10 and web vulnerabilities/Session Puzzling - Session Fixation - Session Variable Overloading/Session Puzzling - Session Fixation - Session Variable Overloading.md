@@ -13,7 +13,7 @@ This vulnerabilities allow to the control of the session in a web application
 
 ---
 
-# What is Session Puzzling?
+# What is Session Fixation?
 
 When a attacker user a identified of session valid for a user, the attacker share this, if the URL allow this, the attacker can share something like this:
 
@@ -22,6 +22,24 @@ When a attacker user a identified of session valid for a user, the attacker shar
 If the user login with the same session_id, you have the same session that the victim and you can access to the same information that the victim.
 
 You have to manipulate the user to persuade then to login in the given url
+
+---
+
+# What is Session Puzzling?
+
+Is the same vulnerability but the attacker have to try to find or generate session id valid
+
+---
+
+# Session Variable Overloading
+
+This type of attack (comes from Session Fixation) an attacker send a lot of data in the web application with the objective of overload the session variables. If the web application not validate successfully the amount of data, the attacker can overload with malicious data or some problems of performance
+
+---
+
+# Ways to avoid this
+
+Using random secures and random session, validate the authentication and limit the data of a session variable
 
 ---
 
