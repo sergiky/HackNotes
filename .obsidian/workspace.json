@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/Race Condition/Race Condition.md",
+                "file": "OWASP TOP 10 and web vulnerabilities/CSSI/CSSI.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/Race Condition/Race Condition.md",
+                "file": "OWASP TOP 10 and web vulnerabilities/CSSI/CSSI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/Race Condition/Race Condition.md",
+                "file": "OWASP TOP 10 and web vulnerabilities/CSSI/CSSI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OWASP TOP 10 and web vulnerabilities/Race Condition/Race Condition.md"
+                "file": "OWASP TOP 10 and web vulnerabilities/CSSI/CSSI.md"
               }
             }
           },
@@ -156,6 +156,12 @@
   },
   "active": "75ed3a53fa2300c3",
   "lastOpenFiles": [
+    "Images/Pasted image 20230906191425.png",
+    "Images/Pasted image 20230906191000.png",
+    "Images/Pasted image 20230906190856.png",
+    "OWASP TOP 10 and web vulnerabilities/Race Condition/Race Condition.md",
+    "OWASP TOP 10 and web vulnerabilities/CSSI/CSSI.md",
+    "OWASP TOP 10 and web vulnerabilities/CSSI",
     "Images/Pasted image 20230906185115.png",
     "Images/Pasted image 20230906184743.png",
     "Images/Pasted image 20230906184127.png",
@@ -164,11 +170,7 @@
     "Images/Pasted image 20230906182544.png",
     "Images/Pasted image 20230906182533.png",
     "Images/Pasted image 20230906171733.png",
-    "Images/Pasted image 20230906171034.png",
-    "Images/Pasted image 20230906171009.png",
-    "Images/Pasted image 20230906170800.png",
     "OWASP TOP 10 and web vulnerabilities/Session Puzzling - Session Fixation - Session Variable Overloading/Session Puzzling - Session Fixation - Session Variable Overloading.md",
-    "OWASP TOP 10 and web vulnerabilities/Race Condition/Race Condition.md",
     "OWASP TOP 10 and web vulnerabilities/Enumerate and exploiting Json Web Tokens (JWT)/Enumerate and exploiting Json Web Tokens (JWT).md",
     "OWASP TOP 10 and web vulnerabilities/Race Condition",
     "OWASP TOP 10 and web vulnerabilities/Enumerate and exploiting Json Web Tokens (JWT)",
@@ -183,7 +185,6 @@
     "OWASP TOP 10 and web vulnerabilities/XPath Injections/desktop.ini",
     "CTF/VulnHub/desktop.ini",
     "OWASP TOP 10 and web vulnerabilities/Mass Assignment Attack - parameter binding/desktop.ini",
-    "Tools/Enumeration/Nmap/desktop.ini",
     "OWASP TOP 10 and web vulnerabilities/IDORs/IDORs.md",
     "OWASP TOP 10 and web vulnerabilities/XPath Injections/XPath Injection.md",
     "CTF/VulnHub/xvwa.md",
@@ -201,7 +202,6 @@
     "OWASP TOP 10 and web vulnerabilities/APIs abuse/APIs abuse.md",
     "OWASP TOP 10 and web vulnerabilities/Prototype Pollution Attack/Prototype Pollution Attack.md",
     "Tools/Enumeration/Wfuzz.md",
-    "Tools/Enumeration/Tools to enum subdomains.md",
     "Untitled.canvas"
   ]
 }
