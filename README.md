@@ -7,4 +7,4 @@
 
 
 
-> Notes from a begginer
+> Most of the notes are taken from [hack4u academy](https://hack4u.io/)
