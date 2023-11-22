@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "OWASP TOP 10 and web vulnerabilities/XSS/XSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "OWASP TOP 10 and web vulnerabilities/XSS/XSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "OWASP TOP 10 and web vulnerabilities/XSS/XSS.md"
               }
             }
           },
@@ -189,8 +189,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0dbb50d982a20251",
+  "active": "380164495e3948dd",
   "lastOpenFiles": [
+    "README.md",
     "OWASP TOP 10 and web vulnerabilities/XSS/XSS.md",
     "OWASP TOP 10 and web vulnerabilities/RFI/RFI.md",
     "OWASP TOP 10 and web vulnerabilities/RCE/RCE.md",
@@ -236,7 +237,6 @@
     "OWASP TOP 10 and web vulnerabilities/CORS/CORS.md",
     "OWASP TOP 10 and web vulnerabilities/SQL Truncation",
     "OWASP TOP 10 and web vulnerabilities/CORS/desktop.ini",
-    "OWASP TOP 10 and web vulnerabilities/XPath Injections/XPath Injection.md",
     "Untitled.canvas"
   ]
 }
